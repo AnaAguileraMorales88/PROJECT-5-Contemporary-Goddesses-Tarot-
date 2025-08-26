@@ -1,30 +1,27 @@
-# Descripción
+# Diosas Místicas
+## Descripción
 
 Tarot Virtual es una aplicación interactiva que combina la experiencia de un tarot digital con un homenaje a mujeres contemporáneas referentes en STEM. Los usuarios pueden descubrir su pasado, presente y futuro a través de estas cartas.
 
 El proyecto busca fomentar la creatividad y visibilizar mujeres líderes en campos mayormente masculinized, todo en una aplicación responsiva y accesible.
 
-# Objetivos del Proyecto
+## Objetivos del Proyecto
 
-- Crear una experiencia de tarot virtual con cartas interactivas.
+- Es un juego de cartas al completar el formulario, se genera una tirada de tres cartas que representan el pasado, presente y futuro.
 
-- Relacionar cada carta con una mujer contemporánea destacada en STEM.
+- Cada carta muestra un significado de cada mujer contemporánea referentes a STEM.
 
-- Permitir guardar y gestionar las lecturas realizadas (historial).
+- Al final de la tirada, el usuario puede reflexionar sobre el mensaje que cada carta aporta y cómo se relaciona con su propio recorrido personal.
+  
+## Tecnologías
 
-- Hacer la aplicación responsive y con una interfaz atractiva.
+- Frontend: HTML5, CSS3, JavaScript, React.js versión: react@19.1.1 + Vite versión: vite@7.1.3
 
-- Trabajar en equipo aplicando metodologías ágiles (Scrum y Kanban).
+- Gestión de datos: JSON-server , Axios
 
-# Tecnologías
+- Testing: Vitest 
 
-- Frontend: HTML5, CSS3, JavaScript, React.js + Vite
-
-- Gestión de datos: JSON-server, Axios
-
-- Testing: Vitest unitario
-
-# Herramientas
+## Herramientas
 
 - Figma (diseño UI/UX)
 
@@ -34,47 +31,8 @@ El proyecto busca fomentar la creatividad y visibilizar mujeres líderes en camp
 
 - Git / GitHub (control de versiones)
 
-# Requisitos Funcionalidades 
 
-- Mostrar todas las cartas boca abajo al iniciar.
-
-- Permitir escoger solo 3 cartas: pasado, presente y futuro.
-
-- Mostrar el significado de cada carta seleccionada.
-
-- Mostrar la diosa contemporánea asociada a cada carta.
-
-- Guardar las lecturas realizadas en un historial.
-
-- Registrar fecha y nombre de usuario en cada lectura.
-
-- Actualizar el nombre de usuario en lecturas guardadas.
-
-- Eliminar lecturas específicas o vaciar todo el historial.
-
-# Requisitos No Funcionales
-
-- Uso de Atomic Design en UI.
-
-- Maquetas para desktop y mobile.
-
-- Consumo de API Contemporary Goddesses.
-
-- Estructura de carpetas coherente y ordenada.
-
-- Buen naming en clases, funciones e ids.
-
-- Mazo de cartas aleatorio, sin repetición en la misma lectura.
-
-- Manejo de errores en llamadas API con Axios.
-
-- Test unitarios implementados.
-
-- Persistencia de datos con JSON-server.
-
-- Imágenes con atribución de autor.
-
-# Endpoints de la API
+## Endpoints de la API
 
 Obtener todas las cartas:
 https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot
@@ -82,7 +40,7 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot
 Obtener carta por ID:
 https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
-# Metodología y Fases
+## Metodología y Fases
 
 - Trabajo en equipo usando Scrum y Kanban.
 
@@ -90,7 +48,7 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 - Iteración basada en feedback continuo para mejorar la experiencia del usuario.
 
-# Diseño y Experiencia
+## Diseño y Experiencia
 
 - Interfaz atractiva y responsive.
 
@@ -98,7 +56,7 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 - Maquetas desarrolladas en Figma para guiar el diseño.
 
-# Uso 
+## Uso 
 - Abrir la aplicación en el navegador.
 
 - Colocar el nombre de usuario.
@@ -111,17 +69,27 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 - Visualizar, actualizar, eliminar o editar segun lo desee el usuario.
 
-# Instalación
-- github
+## Instalación
+- Clona este repositorio:
 
+ ```bash 
+ git clone https://github.com/LuMorenoM/Contemporary-Goddesses-Tarot.git 
+ ```
+- Puedes guardarlo donde tengas tu proyecto.
 
+- Instala el proyecto:
+  ```bash
+  cd Contemporary-Goddesses-Tarot
+  npm install
+  ```
 
+- Abre la carpeta en Visual Studio Code.
 
+- Usa ``` npm run dev``` para abrir un live server y visualizar la página.
 
+- ¡Listo! Empieza a explorar la web!
 
-
-
-# Colaboradoras
+## Colaboradoras
 - https://github.com/AnaAguileraMorales88 
 
 - https://github.com/andreaonweb

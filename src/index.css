@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+@layer base {
+  h3 {
+    font-family: 'Lugrasimo', cursive;
+  }
+}

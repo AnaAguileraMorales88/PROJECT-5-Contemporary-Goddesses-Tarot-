@@ -14,7 +14,7 @@ export default function Fondo({ children }) {
       <img
         src={fondo2}
         alt="fondo superpuesto de las constelaciones"
-        className="absolute inset-0 w-full h-full object-cover opacity-50"
+        className="absolute inset-0 w-full h-full object-cover opacity-85"
       />
 
       <div className="relative z-10 w-full">{children}</div>

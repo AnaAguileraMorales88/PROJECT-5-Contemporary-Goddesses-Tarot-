@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import fondo from "./componentes/fondo.jsx"
 
 function App() {
   return (

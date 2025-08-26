@@ -17,7 +17,6 @@ export default function Fondo({ children }) {
         className="absolute inset-0 w-full h-full object-cover opacity-50"
       />
 
-
       <div className="relative z-10 w-full">{children}</div>
     </div>
   );

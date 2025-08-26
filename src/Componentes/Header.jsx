@@ -1,9 +1,8 @@
+import logo from "../assets/imagenes/logo.png";  
 const Header = () => {
     return (
 <header>
-  <h1 className="text-center text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-bold mt-12 mb-8">
-    DIOSAS MÍSTICAS
-  </h1>
+  <img src= {logo} alt="logo pagina" className="block mx-auto w-32 sm:w-32 md:w-48 lg:w-80 my-8" />
 
 </header>
     )

@@ -7,9 +7,8 @@ function App() {
   return (
   <>
     <Fondo>
-      <Header />
-      <Descripcion />
-
+    <Header />
+    <Descripcion />
     </Fondo>
   </>
   )

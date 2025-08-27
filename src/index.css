@@ -1,11 +1,48 @@
 @import "tailwindcss";
 
+/* Oculta scrollbar en navegadores modernos */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
 
 @layer base {
-  h3, label{
+  h3, label {
     font-family: 'Lugrasimo', cursive;
   }
   h2, p {
-    font-family: 'Dosis' ;
+    font-family: 'Dosis';
   }
+}
+
+/* 3D Flip */
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fall {
+  animation: fall 0.6s ease-out forwards;
 }

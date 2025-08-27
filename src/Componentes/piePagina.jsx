@@ -49,7 +49,7 @@ export default function PiePagina() {
           </li>
         </ul>
 
-        <p className="text-base">
+        <p className="text-base ">
           &copy; {new Date().getFullYear()} Contemporary Goddesses Tarot. Todos los derechos reservados.
         </p>
       </div>

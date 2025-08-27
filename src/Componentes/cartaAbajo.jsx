@@ -1,4 +1,4 @@
-import CartaTarot from "../../assets/imagenes/Carta_Tarot.jpg";
+import CartaTarot from "../assets/imagenes/Carta_Tarot.jpg";
 
 const CartaAbajo = ({ datosUsuario }) => {
   return (

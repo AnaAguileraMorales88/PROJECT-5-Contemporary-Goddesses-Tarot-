@@ -37,14 +37,14 @@ const CartaAbajo = ({ datosUsuario }) => {
                   <img
                     src={CartaTarot}
                     alt="Carta boca abajo"
-                    className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#D3A85D]"
+                    className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#FDDBA1]"
                   />
 
                   {/* Cara delantera */}
                   <img
                     src={carta.imagen}
                     alt={carta.nombre || "Carta"}
-                    className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#D3A85D] transform rotate-y-180"
+                    className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#FDDBA1] transform rotate-y-180"
                   />
                 </div>
               </div>

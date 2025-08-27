@@ -7,7 +7,7 @@ El proyecto busca fomentar la creatividad y visibilizar mujeres líderes en camp
 
 ## Objetivos del Proyecto
 
-- Es un juego de cartas al completar el formulario, se genera una tirada de tres cartas que representan el pasado, presente y futuro.
+- Es un juego de tarot: al completar el formulario, se genera una tirada de tres cartas que representan el pasado, el presente y el futuro.
 
 - Cada carta muestra un significado de cada mujer contemporánea referentes a STEM.
 
@@ -50,11 +50,8 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 ## Diseño y Experiencia
 
-- Interfaz atractiva y responsive.
 
-- Cartas mostradas de manera interactiva y aleatoria.
 
-- Maquetas desarrolladas en Figma para guiar el diseño.
 
 ## Uso 
 - Abrir la aplicación en el navegador.

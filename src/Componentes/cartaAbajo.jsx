@@ -5,6 +5,7 @@ const CartaAbajo = ({ datosUsuario }) => {
   const [cartas, setCartas] = useState([]);
   const [cartasSeleccionadas, setCartasSeleccionadas] = useState([]);
 
+  {/* API */}
   useEffect(() => {
     fetch("https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot")
       .then((res) => res.json())
@@ -19,8 +20,8 @@ const CartaAbajo = ({ datosUsuario }) => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center mt-10 px-0">
-      {/* Fila superior: cartas boca abajo (solo las NO seleccionadas) */}
+    <section className="flex flex-col items-center justify-center mt-15 px-0">
+      {/* Fila superior: cartas boca abajo */}
       <div className="flex justify-center items-center gap-[-10px] overflow-x-auto px-0 w-full max-w-full scrollbar-hide">
         <div className="flex space-x-[-120px]">
           {cartas
@@ -28,7 +29,7 @@ const CartaAbajo = ({ datosUsuario }) => {
             .map((carta) => (
               <div
                 key={carta.id}
-                className="relative cursor-pointer w-[120px] sm:w-[140px] md:w-[160px] lg:w-[190px] aspect-[2/3.3] rounded-lg transition-transform duration-300 hover:-translate-y-3 hover:scale-101"
+                className="relative cursor-pointer w-[120px] sm:w-[140px] md:w-[160px] lg:w-[190px] aspect-[2/3.3] rounded-lg transition-transform duration-300 hover:-translate-x-3 hover:scale-101"
                 onClick={() => manejarSeleccion(carta.id)}
               >
                 <div className="transition-transform duration-700 transform-style-3d w-full h-full relative">
@@ -59,11 +60,11 @@ const CartaAbajo = ({ datosUsuario }) => {
             .map((carta, index) => (
               <div
                 key={carta.id}
-                className="w-[180px] aspect-[2/3.3] relative animate-fall rounded-lg border-2 border-[#D3A85D]"
+                className="w-[180px] aspect-[2/3.5] relative animate-fall "
                 style={{ animationDelay: `${index * 250}ms` }}
               >
                 <img
-                  src={carta.imagen}
+                  src={carta.arcaneImage.imageSrc}
                   alt={carta.nombre || "Carta"}
                   className="w-full h-full rounded-lg object-cover"
                 />

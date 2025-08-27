@@ -1,5 +1,6 @@
 import fondo1 from "../assets/imagenes/Fondo.png";
-import fondo2 from "../assets/imagenes/Fondo_2.png";
+import constelacion1 from "../assets/imagenes/constelacion1.png";
+import estrellas from "../assets/imagenes/estrellas.png";
 
 export default function Fondo({ children }) {
   return (
@@ -11,10 +12,17 @@ export default function Fondo({ children }) {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      <img
-        src={fondo2}
+
+        <img
+        src={constelacion1}
         alt="fondo superpuesto de las constelaciones"
-        className="absolute inset-0 w-full h-full object-cover opacity-85"
+        className="absolute top-0 right-0 w-200 max-lg:w-150 max-md:w-48 max-sm:w-55 h-auto opacity-80"
+      />
+
+        <img
+        src={estrellas}
+        alt="fondo superpuesto de las constelaciones"
+        className="absolute top-130 left-0 w-300 max-lg:w-150 max-md:w-48 max-sm:w-180 md:top-80 h-auto opacity-80 transition-all duration-300 ease-in-out"
       />
 
       <div className="relative z-10 w-full">{children}</div>

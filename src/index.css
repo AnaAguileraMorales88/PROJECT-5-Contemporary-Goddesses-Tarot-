@@ -2,7 +2,10 @@
 
 
 @layer base {
-  h3 {
+  h3, label{
     font-family: 'Lugrasimo', cursive;
+  }
+  h2, p {
+    font-family: 'Dosis' ;
   }
 }

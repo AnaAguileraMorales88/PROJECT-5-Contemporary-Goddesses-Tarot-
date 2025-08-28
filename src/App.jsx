@@ -1,24 +1,25 @@
-import './App.css';
+import Background from "./Components/background";
+import Header from './Components/header';
+import Description from './Components/description';
+import Cards from "./Components/cards";
+import UserInput from './Components/user';
+import Footer from './Components/footer';
 import { useState } from "react";
-import Fondo from "./Componentes/fondo";
-import Header from './Componentes/header';
-import Descripcion from './Componentes/Descripcion';
-import CartaAbajo from "./Componentes/cartaAbajo";
-import Usuario from './Componentes/inputUsuario';
-import PiePagina from './Componentes/PiePagina';
+import './App.css';
+
 
 function App() {
-  const [datosUsuario, setDatosUsuario] = useState(null);
+  const [userData, setUserData] = useState(null);
 
   return (
     <>
-      <Fondo>
+      <Background>
         <Header />
-        <Descripcion />
-        <Usuario onRegistro={(usuario) => setDatosUsuario(usuario)} />
-        <CartaAbajo datosUsuario={datosUsuario} />
-        <PiePagina />
-      </Fondo>
+        <Description />
+        <UserInput onRegistro={(user) => setUserData(user)} />
+        <Cards userData={userData} />
+        <Footer />
+      </Background>
     </>
   );
 }

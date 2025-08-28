@@ -1,73 +1,73 @@
 import { useState } from "react";
 
-function Usuario({ onRegistro }) {
-  const [nombre, setNombre] = useState("");
-  const [mostrarModal, setMostrarModal] = useState(false);
+function UserInput({ onRegister }) {
+  const [name, setName] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
-  const manejarEnvio = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (nombre.trim() === "") {
-      setMostrarModal(true);
+    if (name.trim() === "") {
+      setShowModal(true);
       return;
     }
 
-    const fechaHoy = new Date().toLocaleDateString("es-ES", {
+    const todayDate = new Date().toLocaleDateString("en-US", {
       day: "2-digit",
       month: "long",
       year: "numeric",
     });
 
-    const nuevoUsuario = { nombre, fecha: fechaHoy };
+    const newUser = { name, date: todayDate };
 
-    if (onRegistro) {
-      onRegistro(nuevoUsuario); 
+    if (onRegister) {
+      onRegister(newUser);
     }
 
-    setNombre("");
+    setName("");
   };
 
   return (
     <section className="p-6 max-w-md mx-auto rounded-2xl shadow-md shadow-white">
-      <form onSubmit={manejarEnvio} className="space-y-6 text-center">
+      <form onSubmit={handleSubmit} className="space-y-6 text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0">
           <label
-            htmlFor="nombre"
+            htmlFor="name"
             className="text-xl sm:text-2xl font-semibold text-white mt-6"
           >
-            Nombre:
+            Name:
           </label>
           <input
-            id="nombre"
+            id="name"
             type="text"
-            value={nombre}
-            onChange={(e) => setNombre(e.target.value)}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             className="p-2 w-40 sm:w-48 text-center rounded-lg bg-white text-black placeholder-black mt-6"
-            placeholder="Escribe tu nombre *"
+            placeholder="Enter your name *"
           />
         </div>
         <button
           type="submit"
           className="bg-[#C99AE9] text-[#040813] px-6 py-2 rounded-lg cursor-pointer hover:bg-[#FDDBA1] mt-6 mb-6 text-xl"
         >
-          Guardar
+          Save
         </button>
       </form>
 
-      {mostrarModal && (
+      {showModal && (
         <div className="bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white/70 p-6 rounded-2xl shadow-lg text-center max-w-sm">
             <h2 className="text-xl font-bold text-red-600 mb-4">
-              ⚠️ Campo vacío
+              ⚠️ Empty field
             </h2>
             <p className="text-gray-700 mb-6">
-              Por favor, ingresa tu nombre antes de continuar.
+              Please enter your name before continuing.
             </p>
             <button
-              onClick={() => setMostrarModal(false)}
+              onClick={() => setShowModal(false)}
               className="bg-[#C99AE9] text-[#040813] cursor-pointer px-6 py-2 rounded-lg hover:bg-[#FDDBA1] transition"
             >
-              Cerrar
+              Close
             </button>
           </div>
         </div>
@@ -76,5 +76,6 @@ function Usuario({ onRegistro }) {
   );
 }
 
-export default Usuario;
+export default UserInput;
+
 

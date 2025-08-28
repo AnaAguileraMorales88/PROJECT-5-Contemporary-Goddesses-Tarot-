@@ -1,6 +1,4 @@
-@import "tailwindcss";
 
-/* Oculta scrollbar en navegadores modernos */
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -19,7 +17,6 @@
   }
 }
 
-/* 3D Flip */
 .transform-style-3d {
   transform-style: preserve-3d;
 }

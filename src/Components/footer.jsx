@@ -45,7 +45,7 @@ export default function Footer() {
         </ul>
 
         <p className="text-base">
-          &copy; {new Date().getFullYear()} Contemporary Goddesses Tarot. All rights reserved.
+          &copy; {new Date().getFullYear()} Diosas Místicas Tarot. Todos los derechos reservados.
         </p>
       </div>
     </footer>

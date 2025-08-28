@@ -35,7 +35,7 @@ function UserInput({ onRegister }) {
             htmlFor="name"
             className="text-xl sm:text-2xl font-semibold text-white mt-6"
           >
-            Name:
+            Nombre:
           </label>
           <input
             id="name"
@@ -50,7 +50,7 @@ function UserInput({ onRegister }) {
           type="submit"
           className="bg-[#C99AE9] text-[#040813] px-6 py-2 rounded-lg cursor-pointer hover:bg-[#FDDBA1] mt-6 mb-6 text-xl"
         >
-          Save
+          Guardar
         </button>
       </form>
 
@@ -58,16 +58,16 @@ function UserInput({ onRegister }) {
         <div className="bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white/70 p-6 rounded-2xl shadow-lg text-center max-w-sm">
             <h2 className="text-xl font-bold text-red-600 mb-4">
-              ⚠️ Empty field
+              ⚠️ Campo vacío
             </h2>
             <p className="text-gray-700 mb-6">
-              Please enter your name before continuing.
+              Por favor, ingresa tu nombre antes de continuar.
             </p>
             <button
               onClick={() => setShowModal(false)}
               className="bg-[#C99AE9] text-[#040813] cursor-pointer px-6 py-2 rounded-lg hover:bg-[#FDDBA1] transition"
             >
-              Close
+              Cerrar
             </button>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from "react";
 import Fondo from "./Componentes/fondo";
-import Header from './Componentes/header';
+import Header from './Componentes/Header';
 import Descripcion from './Componentes/descripcion';
 import CartaAbajo from "./Componentes/cartaAbajo";
 import Usuario from './Componentes/inputUsuario';

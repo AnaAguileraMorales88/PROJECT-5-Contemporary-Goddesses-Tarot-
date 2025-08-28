@@ -5,6 +5,7 @@ import Cards from "./Components/cards";
 import UserInput from './Components/user';
 import Footer from './Components/footer';
 import { useState } from "react";
+import './App.css';
 
 
 function App() {

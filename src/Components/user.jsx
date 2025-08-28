@@ -43,7 +43,7 @@ function UserInput({ onRegister }) {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="p-2 w-40 sm:w-48 text-center rounded-lg bg-white text-black placeholder-black mt-6"
-            placeholder="Enter your name *"
+            placeholder="Escribe tu nombre *"
           />
         </div>
         <button

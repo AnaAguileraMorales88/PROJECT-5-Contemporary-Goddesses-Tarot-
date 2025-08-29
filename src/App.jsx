@@ -2,8 +2,8 @@ import Background from "./Components/background";
 import Header from './Components/header';
 import Description from './Components/description';
 import Cards from "./Components/cards";
-import ModalUser from "./modals/modalUser";
-import UserInput from './Components/user';
+import ModalUser from './Components/modals/modalUser';
+import UserInput from './Components/user'
 import Footer from './Components/footer';
 import { useState } from "react";
 import './App.css';

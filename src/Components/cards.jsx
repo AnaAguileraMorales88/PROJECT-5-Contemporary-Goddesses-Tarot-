@@ -1,16 +1,35 @@
 import { useEffect, useState } from "react";
 import TarotCard from "../assets/images/Carta_Tarot.jpg";
+import { getCards } from "../services/ApiCards";
+import SelectedCards from "./selectedCards";
 
-const Cards = ({ userData }) => {
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
+const Cards = () => {
   const [cards, setCards] = useState([]);
   const [selectedCards, setSelectedCards] = useState([]);
 
-  useEffect(() => {
-    fetch("https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot")
-      .then((res) => res.json())
-      .then((data) => setCards(data))
-      .catch((error) => console.error("Error loading cards:", error));
-  }, []);
+useEffect(() => {
+  const fetchCards = async () => {
+    try {
+      const data = await getCards();
+      const shuffledData = shuffleArray(data);
+      setCards(shuffledData);
+    } catch (error) {
+      console.error("Error loading cards:", error);
+    }
+  };
+
+  fetchCards();
+}, []);
+
 
   const handleSelection = (id) => {
     if (selectedCards.includes(id)) return;
@@ -43,43 +62,11 @@ const Cards = ({ userData }) => {
                   />
                 </div>
               </div>
+
             ))}
         </div>
       </div>
-
-      {selectedCards.length > 0 && (
-        <div className="flex justify-center flex-wrap gap-10 mt-16 max-w-[1000px] w-full px-4">
-          {cards
-            .filter((card) => selectedCards.includes(card.id))
-            .map((card, index) => (
-              <div
-                key={card.id}
-                className="w-[180px] aspect-[2/3.5] relative animate-fall "
-                style={{ animationDelay: `${index * 250}ms` }}
-              >
-                <img
-                  src={card.arcaneImage.imageSrc}
-                  alt={card.nombre || "Card"}
-                  className="w-full h-full rounded-lg object-cover"
-                />
-                <p className="text-[#D3A85D] font-semibold mt-3 text-lg text-center">
-                  {card.nombre}
-                </p>
-              </div>
-            ))}
-        </div>
-      )}
-
-      {userData && (
-        <section className="text-center mt-10">
-          <h3 className="text-xl text-[#D3A85D] sm:text-4xl font-bold mb-4 mt-8">
-             ¡Bienvenid@ {userData.name}!
-          </h3>
-          <p className="text-white text-base sm:text-lg md:text-xl lg:text-1xl font-bold mb-4">
-            Tu última tirada fue registrada el <strong>{userData.date}</strong>
-          </p>
-        </section>
-      )}
+          <SelectedCards selectedCards={selectedCards} cards={cards} />
     </section>
   );
 };

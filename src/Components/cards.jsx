@@ -39,7 +39,7 @@ useEffect(() => {
 
   return (
     <section className="flex flex-col items-center justify-center mt-15 px-0">
-      <div className="flex justify-center items-center gap-[-10px] overflow-x-auto px-0 w-full max-w-full scrollbar-hide">
+      <div className="flex justify-center items-center overflow-x-auto px-0 w-full max-w-full scrollbar-hide">
         <div className="flex space-x-[-120px]">
           {cards
             .filter((card) => !selectedCards.includes(card.id))
@@ -52,7 +52,7 @@ useEffect(() => {
                 <div className="transition-transform duration-700 transform-style-3d w-full h-full relative">
                   <img
                     src={TarotCard}
-                    alt="Card back"
+                    alt="Carta oculta"
                     className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#FDDBA1]"
                   />
                   <img
@@ -62,12 +62,13 @@ useEffect(() => {
                   />
                 </div>
               </div>
-
             ))}
         </div>
       </div>
-          <SelectedCards selectedCards={selectedCards} cards={cards} />
+
+      <SelectedCards selectedCards={selectedCards} cards={cards} />
     </section>
+
   );
 };
 

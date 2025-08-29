@@ -76,7 +76,7 @@ const Cards = ({ userData }) => {
              ¡Bienvenid@ {userData.name}!
           </h3>
           <p className="text-white text-base sm:text-lg md:text-xl lg:text-1xl font-bold mb-4">
-            Tu última tirada fue registrada el <strong>{userData.fecha}</strong>
+            Tu última tirada fue registrada el <strong>{userData.date}</strong>
           </p>
         </section>
       )}

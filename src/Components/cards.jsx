@@ -56,8 +56,8 @@ useEffect(() => {
                     className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#FDDBA1]"
                   />
                   <img
-                    src={card.imagen}
-                    alt={card.nombre || "Card"}
+                    src={card.arcaneImage.imageSrc}
+                    alt={card.arcaneName || "Card"}
                     className="absolute w-full h-full rounded-lg backface-hidden border-2 border-[#FDDBA1] transform rotate-y-180"
                   />
                 </div>

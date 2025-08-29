@@ -3,6 +3,7 @@ import TarotCard from "../assets/images/Carta_Tarot.jpg";
 import { getCards } from "../services/ApiCards";
 import SelectedCards from "./selectedCards";
 import CardsResult from "./cardsResult";
+import AlertPopup from "./modals/popupAlert";
 
 const shuffleArray = (array) => {
   const shuffled = [...array];
@@ -17,6 +18,7 @@ const Cards = () => {
   const [cards, setCards] = useState([]);
   const [selectedCards, setSelectedCards] = useState([]);
   const [showResults, setShowResults] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
 
   useEffect(() => {
     const fetchCards = async () => {
@@ -33,7 +35,10 @@ const Cards = () => {
 
   const handleSelection = (id) => {
     if (selectedCards.includes(id)) return;
-    if (selectedCards.length >= 3) return;
+    if (selectedCards.length >= 3) {
+      setShowAlert(true);
+      return;
+    }
     setSelectedCards([...selectedCards, id]);
   };
 
@@ -75,6 +80,15 @@ const Cards = () => {
       {showResults && (
         <CardsResult selectedCards={selectedCards} cards={cards} />
       )}
+
+      {showAlert && (
+        <AlertPopup
+          title="Límite alcanzado"
+          message="Ya seleccionaste el máximo de 3 cartas."
+          onClose={() => setShowAlert(false)}
+        />
+      )}
+
     </section>
   );
 };

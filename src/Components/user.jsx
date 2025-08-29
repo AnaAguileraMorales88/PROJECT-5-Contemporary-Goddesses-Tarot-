@@ -47,7 +47,7 @@ function UserInput({ onRegister }) {
 
       {showModal && (
         <Modal
-          title="⚠️ Campo vacío"
+          title="Campo vacío"
           message="Por favor, ingresa tu nombre antes de continuar."
           onClose={() => setShowModal(false)}
         />

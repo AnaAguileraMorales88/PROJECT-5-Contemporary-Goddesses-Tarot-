@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import TarotCard from "../assets/images/Carta_Tarot.jpg";
 import { getCards } from "../services/ApiCards";
-import SelectedCards from "./selectedCards";
-import CardsResult from "./cardsResult";
-import AlertPopup from "./modals/popupAlert";
+import SelectedCards from "./SelectedCards";
+import CardsResult from "./CardsResult";
 
 const shuffleArray = (array) => {
   const shuffled = [...array];
@@ -14,11 +13,10 @@ const shuffleArray = (array) => {
   return shuffled;
 };
 
-const Cards = () => {
+const Cards = ({ userData }) => {
   const [cards, setCards] = useState([]);
   const [selectedCards, setSelectedCards] = useState([]);
   const [showResults, setShowResults] = useState(false);
-  const [showAlert, setShowAlert] = useState(false);
 
   useEffect(() => {
     const fetchCards = async () => {
@@ -35,10 +33,7 @@ const Cards = () => {
 
   const handleSelection = (id) => {
     if (selectedCards.includes(id)) return;
-    if (selectedCards.length >= 3) {
-      setShowAlert(true);
-      return;
-    }
+    if (selectedCards.length >= 3) return;
     setSelectedCards([...selectedCards, id]);
   };
 
@@ -64,7 +59,6 @@ const Cards = () => {
         </div>
       </div>
 
-
       <SelectedCards selectedCards={selectedCards} cards={cards} />
 
       {selectedCards.length === 3 && !showResults && (
@@ -76,19 +70,13 @@ const Cards = () => {
         </button>
       )}
 
-
       {showResults && (
-        <CardsResult selectedCards={selectedCards} cards={cards} />
-      )}
-
-      {showAlert && (
-        <AlertPopup
-          title="Límite alcanzado"
-          message="Ya seleccionaste el máximo de 3 cartas."
-          onClose={() => setShowAlert(false)}
+        <CardsResult
+          selectedCards={selectedCards}
+          cards={cards}
+          userData={userData}
         />
       )}
-
     </section>
   );
 };

@@ -1,30 +1,42 @@
+import { Routes, Route } from "react-router-dom";
 import Background from "./Components/background";
-import Header from './Components/header';
-import Description from './Components/description';
+import Navbar from "./Components/navbar";
+import Header from "./Components/header";
+import Description from "./Components/description";
 import Cards from "./Components/cards";
-import CommentCards from "./Components/CommentCards"; 
-import ModalUser from './Components/modals/modalUser';
-import UserInput from './Components/user'
-import Footer from './Components/footer';
+import CommentCards from "./Components/CommentCards";
+import ModalUser from "./Components/modals/modalUser";
+import UserInput from "./Components/user";
+import Footer from "./Components/footer";
+import CardHistory from "./Components/CardHistory";
 import { useState } from "react";
-import './App.css';
-
+import "./App.css";
 
 function App() {
   const [userData, setUserData] = useState(null);
 
   return (
-    <>
-      <Background>
-        <Header />
-        <Description />
-        <UserInput onRegister={(user) => setUserData(user)} />
-        <CommentCards />
-        <Cards userData={userData} />
-        <ModalUser userData={userData}/>
-        <Footer />
-      </Background>
-    </>
+    <Background>
+      <Navbar />
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Description />
+              <UserInput onRegister={(user) => setUserData(user)} />
+              <CommentCards />
+              <Cards userData={userData} />
+              <ModalUser userData={userData} />
+            </>
+          }
+        />
+
+        <Route path="/history" element={<CardHistory />} />
+      </Routes>
+      <Footer />
+    </Background>
   );
 }
 

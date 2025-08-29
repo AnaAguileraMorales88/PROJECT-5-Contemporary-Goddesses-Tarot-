@@ -1,0 +1,13 @@
+import axios from "axios";
+
+const API_URL = "http://localhost:5000/cardspreads";
+
+
+export const saveSpread = async (spread) => {
+    return await axios.post(API_URL, spread);
+};
+
+export const getSpreads = async () => {
+    const res = await axios.get(API_URL);
+    return res.data;
+};

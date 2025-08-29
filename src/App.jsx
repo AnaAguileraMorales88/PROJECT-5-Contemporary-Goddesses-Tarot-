@@ -16,7 +16,7 @@ function App() {
       <Background>
         <Header />
         <Description />
-        <UserInput onRegistro={(user) => setUserData(user)} />
+        <UserInput onRegister={(user) => setUserData(user)} />
         <Cards userData={userData} />
         <Footer />
       </Background>

@@ -2,6 +2,7 @@ import Background from "./Components/background";
 import Header from './Components/header';
 import Description from './Components/description';
 import Cards from "./Components/cards";
+import CommentCards from "./Components/CommentCards"; 
 import ModalUser from './Components/modals/modalUser';
 import UserInput from './Components/user'
 import Footer from './Components/footer';
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Description />
         <UserInput onRegister={(user) => setUserData(user)} />
+        <CommentCards />
         <Cards userData={userData} />
         <ModalUser userData={userData}/>
         <Footer />

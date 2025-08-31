@@ -1,6 +1,3 @@
-import { title } from "framer-motion/client";
-import { useEffect } from "react";
-
 function AlertPopup({ title, message, onClose }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-50">
@@ -9,7 +6,7 @@ function AlertPopup({ title, message, onClose }) {
         <p className="text-gray-700 mb-6">{message}</p>
         <button
           onClick={onClose}
-          className="bg-[#C99AE9] text-[#040813] px-6 py-2 rounded-lg hover:bg-[#FDDBA1] transition"
+          className="bg-[#C99AE9] text-[#040813] px-6 py-2 rounded-lg hover:bg-[#FDDBA1] transition cursor-pointer"
         >
           Cerrar
         </button>

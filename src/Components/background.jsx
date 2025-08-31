@@ -14,7 +14,7 @@ export default function Background({ children }) {
       <img
         src={constelacion1}
         alt="fondo superpuesto de las constelaciones"
-        className="absolute top-0 right-0 w-200 max-lg:w-150 max-md:w-48 max-sm:w-55 h-auto opacity-80"
+        className="absolute top-0 right-0 w-165 max-lg:w-150 max-md:w-48 max-sm:w-55 h-auto opacity-80"
       />
 
       <img

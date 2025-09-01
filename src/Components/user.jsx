@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import TextInput from "./textInput";
 import Modal from "./modals/popupAlert";
 
 function UserInput({ onRegister }) {
   const [name, setName] = useState("");
   const [showModal, setShowModal] = useState(false);
+  const nameInputRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,8 +23,23 @@ function UserInput({ onRegister }) {
 
     const newUser = { name, date: todayDate };
     onRegister?.(newUser);
-
     setName("");
+
+    const cardsSection = document.getElementById("cards-section");
+    if (cardsSection) {
+      cardsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+
+    requestAnimationFrame(() => {
+      if (nameInputRef.current) {
+        nameInputRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+        nameInputRef.current.focus();
+      }
+    });
   };
 
   return (
@@ -35,6 +51,7 @@ function UserInput({ onRegister }) {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Escribe tu nombre *"
+          ref={nameInputRef}
         />
 
         <button
@@ -49,7 +66,7 @@ function UserInput({ onRegister }) {
         <Modal
           title="Campo vacío"
           message="Por favor, ingresa tu nombre antes de continuar."
-          onClose={() => setShowModal(false)}
+          onClose={handleCloseModal}
         />
       )}
     </section>
@@ -57,4 +74,8 @@ function UserInput({ onRegister }) {
 }
 
 export default UserInput;
+
+
+
+
 

@@ -107,10 +107,11 @@ const Cards = ({ userData }) => {
       {showResults && (
         <>
           <StartModal ref={startRef} userData={userData} />
-          <CardsResult selectedCards={selectedCards} cards={cards} />
+          <CardsResult selectedCards={selectedCards} cards={cards} userData={userData} />
           <EndModal userData={userData} />
         </>
       )}
+
 
       {showAlert && (
         <AlertPopup

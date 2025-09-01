@@ -22,9 +22,13 @@ const CardsResult = ({ selectedCards, cards, userData }) => {
       })),
     };
 
+      console.log("Intentando guardar spread:", spread);
+
     try {
-      await saveSpread(spread);
+      const res=await saveSpread(spread);
+      console.log("Respuesta del backend:", res); 
       setSaved(true);
+      return res;
     } catch (err) {
       console.error("Error al guardar la tirada:", err);
     }

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/cardspreads";
+const API_URL = "http://localhost:3001/cardspreads";
 
 
 export const saveSpread = async (spread) => {

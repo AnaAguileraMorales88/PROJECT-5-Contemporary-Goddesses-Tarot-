@@ -9,7 +9,7 @@ const Navbar = () => {
             to="/"
             className="hover:text-[#BD85D8] transition-colors"
           >
-            Tarot
+            Inicio
           </Link>
         </li>
         <li>

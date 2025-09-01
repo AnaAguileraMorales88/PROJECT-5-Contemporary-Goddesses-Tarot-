@@ -15,11 +15,11 @@ El proyecto busca fomentar la creatividad y visibilizar mujeres líderes en camp
   
 ## Tecnologías
 
-- Frontend: HTML5, CSS3, JavaScript, React.js versión: react@19.1.1 + Vite versión: vite@7.1.3
+- Frontend: HTML5, CSS3, JavaScript, React.js versión:19.1.1 , Vite versión:7.1.3
 
-- Gestión de datos: JSON-server , Axios
+- Gestión de datos: JSON-server versión: 1.0.0-beta.3 , Axios versión:1.11.0
 
-- Testing: Vitest 
+- Testing: Vitest versión: 3.2.4
 
 ## Herramientas
 
@@ -64,7 +64,10 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 - Guardar la lectura en el historial.
 
-- Visualizar, actualizar, eliminar o editar segun lo desee el usuario.
+- Visualizar las cartas de tarot.
+  
+- Visualizar , editar , actualizar o eliminar el historial de tiradas.
+
 
 ## Instalación
 - Clona este repositorio:

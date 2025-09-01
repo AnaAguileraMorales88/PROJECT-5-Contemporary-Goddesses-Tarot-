@@ -49,31 +49,6 @@
           "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg"
         }
       ]
-    },
-    {
-      "id": "43a0",
-      "user": "Ana",
-      "date": "1/9/2025, 11:13:46",
-      "cards": [
-        {
-          "id": "14",
-          "name": "La Muerte",
-          "description": "El arcano número XIII corresponde a la Muerte, pero no simboliza un final absoluto. Por eso se ubica en el centro de los arcanos, marcando un momento crucial de cambio. La Muerte representa la transformación y la transición de una etapa a otra. Para poder avanzar, es necesario soltar aquello que frena nuestro crecimiento. Esta carta nos anima a dejar atrás lo que ha cumplido su ciclo y permitir que algo nuevo surja.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg"
-        },
-        {
-          "id": "6",
-          "name": "El Sumo Sacerdote",
-          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
-        },
-        {
-          "id": "10",
-          "name": "El Ermitaño",
-          "description": "La carta del Ermitaño simboliza una soledad fértil y elegida, un espacio de introspección donde la sabiduría nace del silencio y del encuentro con uno mismo. Su lámpara, la primera luz visible en los arcanos mayores sostenida por una figura humana, representa la guía interior que ilumina el camino del autoconocimiento. Es una invitación a observar, reflexionar y crecer desde dentro, lejos del ruido del mundo.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg"
-        }
-      ]
     }
   ]
 }

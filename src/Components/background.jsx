@@ -4,7 +4,7 @@ import estrellas from "../assets/images/estrellas.png";
 
 export default function Background({ children }) {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-start">
+    <section className="relative min-h-screen flex flex-col items-center justify-start">
       <img
         src={fondo1}
         alt="fondo base morado con estrellas"
@@ -24,6 +24,6 @@ export default function Background({ children }) {
       />
 
       <div className="relative z-10 w-full">{children}</div>
-    </div>
+    </section>
   );
 }

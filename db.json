@@ -49,6 +49,31 @@
           "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg"
         }
       ]
+    },
+    {
+      "id": "56b3",
+      "user": "Andrea",
+      "date": "1/9/2025, 10:41:36",
+      "cards": [
+        {
+          "id": "12",
+          "name": "La Justicia",
+          "description": "La carta número XI representa la ley del karma, la relación entre causa y efecto. Su figura, directa y enigmática, nos enfrenta con la verdad sin rodeos. A través de esta carta aprendemos a ser objetivos y a cosechar las consecuencias de nuestras acciones. Además, la Justicia encarna ideales elevados y nos exhorta a defender diariamente un mundo más justo, libre e inclusivo, apoyando a quienes sufren opresión.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg"
+        },
+        {
+          "id": "1",
+          "name": "El Loco",
+          "description": "El viaje del Loco hacia el Mundo comienza en el número 0, un punto incierto donde todo es posible y se requiere una gran dosis de fe. Esta carta representa a quienes se aventuran en territorios inexplorados y llenos de misterio. Es la manifestación del impulso de lanzarse al abismo sin garantías.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg"
+        },
+        {
+          "id": "16",
+          "name": "El Diablo",
+          "description": "La carta del Diablo aborda temas de opresión y libertad de elección. Nos confronta con nuestros temores y nos enseña que la única forma de vencerlos es nombrarlos, mirarlos de frente y aceptarlos. En el tarot, el Diablo está vinculado al libre albedrío, especialmente en los momentos en que parece más complicado ejercerlo. Representa la energía creativa, la fuerza erótica y dionisíaca que desata el caos y, a la vez, la libertad. Su mensaje sugiere que para salir del ciclo atrapante, solo hace falta romperlo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg"
+        }
+      ]
     }
   ]
 }

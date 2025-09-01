@@ -26,12 +26,12 @@ const CardHistory = () => {
     }
   };
   return (
-<section className="mt-6 p-4 sm:p-6 bg-[#1f1f2e] rounded-2xl shadow-lg max-w-full sm:max-w-3xl md:max-w-4xl mx-auto">
+<section className="mt-6 p-4 sm:p-6 bg-[#1f1f2e] rounded-2xl shadow-lg mx-4 sm:mx-6 md:mx-auto max-w-full sm:max-w-3xl md:max-w-4xl">
   <h2 className="text-[#FDDBA1] font-bold text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6 text-center">
     Historial de Tiradas
   </h2>
   {history.length === 0 ? (
-    <p className="text-gray-400 text-center sm:text-left">
+    <p className="text-gray-400 text-center sm:text-left text-base sm:text-lg md:text-xl">
       No hay tiradas guardadas todavía.
     </p>
   ) : (

@@ -5,6 +5,7 @@ const CardHistory = () => {
   const [history, setHistory] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchHistory = async () => {
       try {
         const data = await getSpreads();
@@ -25,21 +26,39 @@ const CardHistory = () => {
         <p className="text-gray-400">No hay tiradas guardadas todavía.</p>
       ) : (
         history.map((spread, index) => (
-          <article key={index} className="mb-6 p-4 bg-[#2a2a3b] rounded-xl">
-            <h3 className="text-[#BD85D8] font-semibold">
+          <article
+            key={index}
+            className="mb-6 p-4 bg-[#2a2a3b] rounded-xl text-center"
+          >
+            <h3 className="text-[#BD85D8] font-semibold mb-4">
               {spread.user} - {spread.date}
             </h3>
-            <div className="flex gap-4 mt-4 flex-wrap">
+
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center max-w-[600px] mx-auto">
               {spread.cards.map((c) => (
-                <figure key={c.id} className="w-[100px] text-center">
+                <figure key={c.id} className="text-center w-[140px] mx-auto">
                   <img
                     src={c.image}
                     alt={c.name}
-                    className="rounded-lg border border-[#FDDBA1] shadow-md"
+                    className="w-[140px] h-auto rounded-lg border border-[#FDDBA1] shadow-md mx-auto"
                   />
                   <figcaption className="text-sm text-[#FDDBA1] mt-2">
                     {c.name}
                   </figcaption>
+
+                  {c.goddessImage && (
+                    <>
+                      <img
+                        src={c.goddessImage}
+                        alt={c.goddessName}
+                        className="w-[130px] h-[130px] object-cover rounded-full border-2 border-[#FDDBA1] shadow-md mt-4 mx-auto"
+                      />
+                      <p className="text-sm text-[#BD85D8] mt-2 font-semibold italic">
+                        {c.goddessName}
+                      </p>
+                    </>
+                  )}
                 </figure>
               ))}
             </div>

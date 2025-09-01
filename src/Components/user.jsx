@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import TextInput from "./textInput";
+import TextInput from "./Testing/textInput";
 import Modal from "./modals/popupAlert";
 
 function UserInput({ onRegister }) {

@@ -7,7 +7,7 @@ import Cards from "./Components/cards";
 import CommentCards from "./Components/CommentCards";
 import UserInput from "./Components/user";
 import Footer from "./Components/footer";
-import CardHistory from "./Components/CardHistory";
+import CardHistory from "./Components/cardHistory";
 import { useState } from "react";
 import "./App.css";
 

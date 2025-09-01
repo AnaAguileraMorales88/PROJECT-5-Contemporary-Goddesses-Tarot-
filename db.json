@@ -1,77 +1,27 @@
 {
   "cardspreads": [
     {
-      "id": "4bf8",
-      "user": "Andrea",
-      "date": "1/9/2025, 9:45:03",
-      "cards": [
-        {
-          "id": "6",
-          "name": "El Sumo Sacerdote",
-          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
-        },
-        {
-          "id": "4",
-          "name": "La Emperatriz",
-          "description": "La carta número III nos conecta con la energía de la creación en su forma más esencial. La Emperatriz tiene el poder de transformar lo que toca, impregnándolo de vitalidad y dinamismo. Representa la fertilidad, la abundancia y la acción constante. Es el impulso creativo nacido del amor, donde el caos se convierte en vida.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg"
-        },
-        {
-          "id": "3",
-          "name": "La Sacerdotisa",
-          "description": "La carta número II nos invita a abrirnos a la receptividad y a conectar con nuestro universo interno. Representa el momento del encuentro profundo con uno mismo y con aquello que nos rodea, ya sea otra persona o un espacio simbólico, casi onírico, donde la intuición toma protagonismo y guía el camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg"
-        }
-      ]
-    },
-    {
-      "id": "3ad0",
-      "user": "Andrea",
-      "date": "1/9/2025, 9:48:54",
-      "cards": [
-        {
-          "id": "6",
-          "name": "El Sumo Sacerdote",
-          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
-        },
-        {
-          "id": "8",
-          "name": "El Carro",
-          "description": "La carta del Carro retoma la energía del Mago y la convierte en impulso firme, guiado por la voluntad, la determinación y la confianza en uno mismo. Representa un avance que nace de una necesidad profunda: el fuego interior que impulsa, supera barreras y abre rutas desconocidas. Es una fuerza que no se detiene, movida por el propósito y el coraje.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg"
-        },
-        {
-          "id": "2",
-          "name": "El Mago",
-          "description": "La carta número I corresponde al Mago, símbolo de nuestro poder interior y de aquellas habilidades que aún no han salido plenamente a la luz. El Mago representa a quien, con destreza y voluntad, puede alcanzar cualquier objetivo. Es una carta que habla de iniciativa, claridad mental y decisión, conectando tanto con lo tangible como con lo intangible, especialmente con la percepción y la visión interior.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg"
-        }
-      ]
-    },
-    {
-      "id": "43a0",
+      "id": "1b08",
       "user": "Ana",
-      "date": "1/9/2025, 11:13:46",
+      "date": "1/9/2025, 15:35:11",
       "cards": [
         {
-          "id": "14",
-          "name": "La Muerte",
-          "description": "El arcano número XIII corresponde a la Muerte, pero no simboliza un final absoluto. Por eso se ubica en el centro de los arcanos, marcando un momento crucial de cambio. La Muerte representa la transformación y la transición de una etapa a otra. Para poder avanzar, es necesario soltar aquello que frena nuestro crecimiento. Esta carta nos anima a dejar atrás lo que ha cumplido su ciclo y permitir que algo nuevo surja.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg"
+          "id": "13",
+          "name": "El Colgado",
+          "description": "En la carta del Colgado aparece una figura suspendida boca abajo, que no muestra señales de molestia. Esto simboliza a quienes adoptan una visión distinta, a la minoría que observa desde un ángulo diferente. Representa la habilidad para hallar soluciones y fuerzas en situaciones que otros consideran difíciles o incómodas. Es un tiempo de espera y pausa, un estado de transición hasta que la verdad se haga evidente con el paso del tiempo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg"
         },
         {
-          "id": "6",
-          "name": "El Sumo Sacerdote",
-          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
+          "id": "12",
+          "name": "La Justicia",
+          "description": "La carta número XI representa la ley del karma, la relación entre causa y efecto. Su figura, directa y enigmática, nos enfrenta con la verdad sin rodeos. A través de esta carta aprendemos a ser objetivos y a cosechar las consecuencias de nuestras acciones. Además, la Justicia encarna ideales elevados y nos exhorta a defender diariamente un mundo más justo, libre e inclusivo, apoyando a quienes sufren opresión.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg"
         },
         {
-          "id": "10",
-          "name": "El Ermitaño",
-          "description": "La carta del Ermitaño simboliza una soledad fértil y elegida, un espacio de introspección donde la sabiduría nace del silencio y del encuentro con uno mismo. Su lámpara, la primera luz visible en los arcanos mayores sostenida por una figura humana, representa la guía interior que ilumina el camino del autoconocimiento. Es una invitación a observar, reflexionar y crecer desde dentro, lejos del ruido del mundo.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg"
+          "id": "15",
+          "name": "La Templanza",
+          "description": "La Templanza representa al alquimista que domina el arte de combinar con precisión los elementos necesarios para crear algo que trasciende sus partes individuales. Antes de enfrentar el caos y la intensidad sensorial que trae la carta XV, El Diablo, se atraviesa un estado de equilibrio simbolizado por la Templanza. Este es un espacio logrado gracias a la reflexión y la conciliación de fuerzas opuestas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg"
         }
       ]
     }

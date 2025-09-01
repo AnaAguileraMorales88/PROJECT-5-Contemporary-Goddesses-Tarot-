@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import TarotCard from "../assets/images/Carta_Tarot.jpg";
 import { getCards } from "../services/ApiCards";
 import SelectedCards from "./selectedCards";
-import CardsResult from "./cardsResult";
+import CardsResult from "./CardsResult";
 import AlertPopup from "./modals/popupAlert";
 import StartModal from "./modals/startModal";
 import EndModal from "./modals/endModal";
@@ -107,10 +107,11 @@ const Cards = ({ userData }) => {
       {showResults && (
         <>
           <StartModal ref={startRef} userData={userData} />
-          <CardsResult selectedCards={selectedCards} cards={cards} />
+          <CardsResult selectedCards={selectedCards} cards={cards} userData={userData} />
           <EndModal userData={userData} />
         </>
       )}
+
 
       {showAlert && (
         <AlertPopup

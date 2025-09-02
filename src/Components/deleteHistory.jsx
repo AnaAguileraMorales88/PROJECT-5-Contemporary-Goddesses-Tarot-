@@ -1,13 +1,13 @@
-import { FaTrash } from "react-icons/fa"; // icono de basura de FontAwesome
+import { MdDelete } from "react-icons/md";
 
 const DeleteHistory = ({ id, onDelete }) => {
   return (
     <button
       onClick={() => onDelete(id)}
-      className="p-2 bg-[#C99AE9] hover:bg-[#b055ed] text-white rounded-full shadow-md transition-colors duration-300 cursor-pointer"
+      className="p-3 hover:bg-[#FDDBA1] text-white rounded-full shadow-md transition-colors duration-300 cursor-pointer"
       title="Eliminar"
     >
-      <FaTrash className="w-5 h-5" />
+      <MdDelete className="w-5 h-5" />
     </button>
   );
 };

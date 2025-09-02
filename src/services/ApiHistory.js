@@ -15,3 +15,11 @@ export const deleteSpread = async (id) => {
   return await axios.delete(`${API_URL}/${id}`);
 };
 
+// 👉 Borrar todas las tiradas una a una
+export const deleteAllSpreads = async () => {
+  const spreads = await getSpreads();
+  const deletePromises = spreads.map((s) => deleteSpread(s.id));
+  await Promise.all(deletePromises);
+};
+
+

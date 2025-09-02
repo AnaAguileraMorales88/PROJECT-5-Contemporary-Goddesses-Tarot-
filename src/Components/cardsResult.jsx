@@ -80,10 +80,10 @@ const CardsResult = ({ selectedCards, cards, userData }) => {
 
       {!saved ? (
         <button
-          className="self-center bg-[#C99AE9] hover:bg-[#FDDBA1] text-black font-semibold px-6 py-3 rounded-xl shadow-lg transition cursor-pointer"
+          className="self-center bg-[#FDDBA1] hover:bg-[#C99AE9] text-black font-semibold px-6 py-3 rounded-xl shadow-lg transition cursor-pointer"
           onClick={handleSave}
         >
-          Guardar tirada
+          GUARDAR TIRADA
         </button>
       ) : loadingRedirect ? (
         <div className="flex flex-col items-center gap-3">

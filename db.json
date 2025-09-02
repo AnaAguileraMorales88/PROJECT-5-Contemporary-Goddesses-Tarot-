@@ -1,10 +1,9 @@
 {
-  "cardspreads": []
   "cardspreads": [
     {
-      "id": "dc08",
+      "id": "a0d3",
       "user": "Andrea",
-      "date": "1/9/2025, 16:15:26",
+      "date": "2/9/2025, 12:11:51",
       "cards": [
         {
           "id": "16",
@@ -16,56 +15,22 @@
           "goddessImage": "https://i1.rgstatic.net/ii/profile.image/796422005874690-1566893211860_Q128/Ghada-Amer.jpg"
         },
         {
-          "id": "22",
-          "name": "El Mundo",
-          "description": "La carta final de los arcanos mayores, el Mundo, representa tanto un cierre como un nuevo comienzo. Marca la culminación de un ciclo y la realización del destino que nos propusimos alcanzar. Es un punto de partida desde cero, que nos invita a renovarnos y explorar nuevamente. El Mundo nos impulsa a salir de nuestra zona de confort antes de que se convierta en una prisión dorada. Aquí llegamos y desde aquí partimos, siguiendo el ritmo cíclico de los arcanos. Esta carta está profundamente ligada al viaje interior y al descubrimiento constante.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/RWS_Tarot_21_World.jpg",
-          "goddessName": "Alicia Asín",
-          "goddessDescription": "Alicia Asín Pérez (Zaragoza - España) es una destacada ingeniera informática y empresaria, cofundadora y CEO de Libelium, empresa especializada en soluciones de Internet de las Cosas (IoT) aplicadas a ciudades inteligentes, agricultura de precisión y sostenibilidad medioambiental. Licenciada en Ingeniería Informática por la Universidad de Zaragoza y con formación en ESADE y Cambridge Judge Business School, Asín ha sido pionera en la integración de IoT con inteligencia artificial y Big Data. Desde su fundación en 2006, Libelium ha desplegado sus tecnologías en más de 120 países y exporta el 90% de su facturación. Su labor ha sido reconocida con múltiples premios, en 2023, recibió la Medalla al Mérito Profesional del Gobierno de Aragón, destacando su contribución al desarrollo tecnológico y la visibilidad de las mujeres en carreras STEM. Además, es autora del libro Toma el control de tus datos (2024), donde reflexiona sobre la privacidad y el uso ético de la tecnología. Asín ha sido una voz decisiva en la promoción de la tecnología sostenible y su impacto positivo en la sociedad.",
-          "goddessImage": "https://img.lavdg.com/sc/IQ7kePCJCJ9oAmnIFC_wYC8bW2k=/480x/2019/11/06/00121573058581801421204/Foto/HN7C6F1_174127.jpg"
+          "id": "10",
+          "name": "El Ermitaño",
+          "description": "La carta del Ermitaño simboliza una soledad fértil y elegida, un espacio de introspección donde la sabiduría nace del silencio y del encuentro con uno mismo. Su lámpara, la primera luz visible en los arcanos mayores sostenida por una figura humana, representa la guía interior que ilumina el camino del autoconocimiento. Es una invitación a observar, reflexionar y crecer desde dentro, lejos del ruido del mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg",
+          "goddessName": "Kathryn Thornton",
+          "goddessDescription": "Kathryn Thornton (Montgomery - EEUU) es física y exastronauta de la NASA. Licenciada en Física por la Universidad de Auburn y doctora por la Universidad de Virginia, trabajó en el Ejército de EEUU Antes de ser seleccionada por la NASA en 1984, se convirtió en astronauta en 1985. Participó en cuatro misiones espaciales entre 1989 y 1995, acumulando más de 975 horas en órbita y 21 horas en caminatas espaciales. Destaca por ser la única mujer en reparar el telescopio Hubble en 1993. Tras dejar la NASA, fue profesora emérita en Ingeniería Mecánica y Aeroespacial en la Universidad de Virginia. Ha recibido múltiples premios y fue incluida en el Salón de la Fama de Astronautas en 2010 además de ser defensora de la participación femenina en la exploración espacial.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/KathrynThornton.jpg"
         },
         {
-          "id": "18",
-          "name": "La Estrella",
-          "description": "La Estrella aparece después de tiempos complicados, anunciando una renovación de energías. Lo más duro ya quedó atrás y podemos volver a mirar al cielo con confianza. Esta carta representa la esperanza, como esas estrellas fugaces que reflejan nuestros deseos más profundos, los cuales se transforman en esperanza y, finalmente, en alegría al cumplirse. La Estrella nos orienta hacia la sanación y nos recuerda que de la nada surge la plenitud.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_17_Star.jpg",
-          "goddessName": "Sara García Alonso",
-          "goddessDescription": "Sara García Alonso (León - España) es una investigadora y astronauta destacada en biotecnología y oncología. Licenciada en Biotecnología por la Universidad de León y doctora cum laude en Biología Molecular del Cáncer por la Universidad de Salamanca, recibió el Premio Extraordinario de Doctorado. Desde 2019, lidera proyectos sobre cáncer de pulmón y páncreas en el Centro Nacional de Investigaciones Oncológicas. En noviembre de 2022, fue seleccionada como astronauta de reserva por la Agencia Espacial Europea (ESA), convirtiéndose en la primera mujer española en formar parte de este programa. Ha sido reconocida con premios como el Ada Byron Joven 2023, la Medalla de Plata de la Comunidad de Madrid y el Premio 'Pasión por la Ciencia' en 2025. Además, es autora del libro Órbitas, donde comparte su trayectoria científica y personal.",
-          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Sara_Garc%C3%ADa_Alonso_-_ESA_astronaut_announcement_Class_of_2022_%2852519960003%29_%28cropped%29.jpg"
-        }
-      ]
-    },
-    {
-      "id": "6679",
-      "user": "Dolores",
-      "date": "1/9/2025, 16:19:58",
-      "cards": [
-        {
-          "id": "6",
-          "name": "El Sumo Sacerdote",
-          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg",
-          "goddessName": "Kate Crawford",
-          "goddessDescription": "Kate Crawford (Sydney - Australia) es una investigadora y académica especializada en las implicaciones sociales y políticas de la inteligencia artificial. Co-fundadora del AI Now Institute en la Universidad de Nueva York, su trabajo se centra en cómo los sistemas de IA afectan la equidad, la privacidad y los derechos humanos. En su libro Atlas of AI, analiza cómo la IA está profundamente entrelazada con estructuras de poder y recursos naturales, describiéndola como una industria extractiva del siglo XXI. Crawford ha hablado y publicado artículos académicos sobre temas tales como las redes sociales, la regulación gubernamental del contenido de los medios, la interacción entre género y dispositivos móviles, gente joven y sexting, y big data. También ha explorado el impacto ambiental de la IA y aboga por una mayor transparencia y responsabilidad en su desarrollo y aplicación. Reconocida como una de las voces más influyentes en el campo de la inteligencia artificial, advierte sobre las consecuencias sociales y políticas que puede tener un uso irresponsable de esta tecnología.",
-          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kate_Crawford_by_flickr_user_andresmh.jpg"
-        },
-        {
-          "id": "5",
-          "name": "El Emperador",
-          "description": "La carta número IV representa al Emperador, emblema de estructura, autoridad y seguridad. El número cuatro evoca la solidez de un hogar, con sus muros que contienen y protegen. Así como abril, el cuarto mes, marca el momento en que la energía combativa de la vida hace florecer la tierra, el Emperador canaliza la fuerza hacia el orden y la permanencia, guiando el crecimiento con determinación y propósito.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg",
-          "goddessName": "Shalini Kapoor",
-          "goddessDescription": "Shalini Kapoor (Bareilly - India) estudió Ingeniería Informática en la Universidad de Lucknow y obtuvo un MBA en Sistemas de Información en SP Jain (Mumbai). Tras iniciar su carrera en HCL, pasó a IBM, donde en más de dos décadas ascendió a roles clave en IoT, IA y soluciones empresariales, siendo la primera mujer en India en ser nombrada IBM Fellow. Fundó la ONG Ankurit Foundation (2014) para fomentar STEM en niños, organizó ferias para más de 3.000 estudiantes y promovió la inclusión de IA en el currículo escolar. Es autora de AI for You: The New Game Changer y actualmente es Chief Technologist para AWS en India/APJ, liderando iniciativas de IA, sostenibilidad y transformación digital.",
-          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Shalini_Kapoor_%28IBM%29_Sep_2023.jpg"
-        },
-        {
-          "id": "3",
-          "name": "La Sacerdotisa",
-          "description": "La carta número II nos invita a abrirnos a la receptividad y a conectar con nuestro universo interno. Representa el momento del encuentro profundo con uno mismo y con aquello que nos rodea, ya sea otra persona o un espacio simbólico, casi onírico, donde la intuición toma protagonismo y guía el camino.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg",
-          "goddessName": "Luisa Rubio Arribas",
-          "goddessDescription": "Luisa Rubio Arribas (Madrid - España) es una destacada experta en venture capital corporativo, innovación abierta y emprendimiento. Como directora de Wayra X, la plataforma de inversión temprana de Telefónica, lidera la selección e inversión en startups digitales de consumo, con participaciones de hasta 200.000 € en empresas de siete países, principalmente fuera de España y Latinoamérica. Durante su trayectoria profesional, ha trabajado en España y EEUU, impulsando iniciativas de innovación abierta que dieron lugar a más de 100 startups, gestionando inversiones, desinversiones y desarrollo de negocio. Además, es ponente y jurado en conferencias internacionales, colabora con publicaciones y ejerce como docente en emprendimiento e innovación abierta. Su liderazgo en Wayra X ha permitido constituir un portafolio sólido, construyendo alianzas estratégicas con startups digitales y fortaleciendo el ecosistema emprendedor global con perspectiva humana y colaborativa.",
-          "goddessImage": "https://150sec.com/wp-content/uploads/2021/01/Luisa-7.jpg"
+          "id": "19",
+          "name": "La Luna",
+          "description": "Bajo el resplandor de la luna se despierta el espíritu libre del bosque, acompañado por una mirada cargada de intuición. La luz lunar distorsiona la realidad, mostrando un reflejo fantástico en lugar de la verdad directa. La carta de la Luna simboliza la incertidumbre más que las respuestas, representando la magia en su estado más puro, susceptible de múltiples interpretaciones. Es el mundo interior, lo cambiante, lo imaginario y lo oculto. La Luna surge en un espacio donde lo interno y lo externo se entrelazan, un lugar capaz de crear nuevos universos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/RWS_Tarot_18_Moon.jpg",
+          "goddessName": "Reshma Saujani",
+          "goddessDescription": "Reshma Saujani (Illinois - EEUU) es una activista, abogada y autora reconocida por fundar Girls Who Code, una organización sin fines de lucro dedicada a reducir la brecha de género en la tecnología, y Moms First (anteriormente Marshall Plan for Moms), que aboga por políticas laborales que apoyen a las madres trabajadoras. Comenzó su carrera como abogada y organizadora política, siendo la primera mujer indoamericana (descendiente del pueblo Gujarati) en postularse para el Congreso de EE. UU. en 2010. Su TED Talk, 'Teach girls bravery, not perfection', ha sido vista por más de 54 millones de personas y su libro Brave, Not Perfect se convirtió en un bestseller del New York Times. Ha sido reconocida en listas como Fortune 40 Under 40 y Forbes Most Powerful Women Changing the World.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2018-prathamusa-reshma-saujani.jpg"
         }
       ]
     }

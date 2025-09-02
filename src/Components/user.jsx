@@ -44,7 +44,7 @@ function UserInput({ onRegister }) {
 
   return (
     <section className="p-6 max-w-md mx-auto rounded-2xl shadow-md shadow-white">
-      <form onSubmit={handleSubmit} className="space-y-6 text-center">
+      <form onSubmit={handleSubmit} className="space-y-6 text-center mb-5 mt-5">
         <TextInput
           id="name"
           label="Nombre:"

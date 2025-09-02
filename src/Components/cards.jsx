@@ -92,7 +92,7 @@ const Cards = ({ userData }) => {
       {selectedCards.length === 3 && !showResults && (
         <button
           ref={buttonRef}
-          className="mt-8 px-6 py-2 bg-[#FDDBA1] text-black font-semibold rounded-2xl shadow-md hover:bg-[#BD85D8] transition cursor-pointer"
+          className="mt-13 px-6 py-2 bg-[#FDDBA1] text-black font-semibold rounded-2xl shadow-md hover:bg-[#BD85D8] transition cursor-pointer"
           onClick={() => {
             setShowResults(true);
             setTimeout(() => {
@@ -100,7 +100,7 @@ const Cards = ({ userData }) => {
             }, 100);
           }}
         >
-          Mostrar Resultados
+          VER RESULTADO
         </button>
       )}
 

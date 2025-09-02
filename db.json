@@ -33,6 +33,40 @@
           "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Sara_Garc%C3%ADa_Alonso_-_ESA_astronaut_announcement_Class_of_2022_%2852519960003%29_%28cropped%29.jpg"
         }
       ]
+    },
+    {
+      "id": "9ca5",
+      "user": "Nube",
+      "date": "2/9/2025, 9:35:39",
+      "cards": [
+        {
+          "id": "4",
+          "name": "La Emperatriz",
+          "description": "La carta número III nos conecta con la energía de la creación en su forma más esencial. La Emperatriz tiene el poder de transformar lo que toca, impregnándolo de vitalidad y dinamismo. Representa la fertilidad, la abundancia y la acción constante. Es el impulso creativo nacido del amor, donde el caos se convierte en vida.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg",
+          "goddessName": "Elena García Armada",
+          "goddessDescription": "Elena García Armada (Valladolid - España) es doctora en ingeniería industrial y robótica, es investigadora del CSIC desde el año 2007. Su investigación clave ha sido el desarrollo de músculos robóticos biomiméticos e integrados en exoesqueletos pediátricos para rehabilitación, especialmente el exoesqueleto ATLAS, pionero mundial, certificado como producto sanitario en 2021. Investigadora enfocada en la transferencia tecnológica y emprendedora, fundó Marsi Bionics en 2013 que se dedica a investigación y desarrollo de tecnologías sanitarias, el cual ha recibido numerosos premios por innovación tecnológica y su impacto social. Además en el año 2020, García Armada fue reconocida como una de las 30 mujeres más influyentes del mundo en el ámbito de la robótica por Robohub, plataforma estadounidense dedicada a la divulgación científica.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Elena_Garc%C3%ADa_Armada_en_los_Reconocimientos_8_de_Marzo._D%C3%ADa_de_la_Mujer_%282018%29.jpg"
+        },
+        {
+          "id": "3",
+          "name": "La Sacerdotisa",
+          "description": "La carta número II nos invita a abrirnos a la receptividad y a conectar con nuestro universo interno. Representa el momento del encuentro profundo con uno mismo y con aquello que nos rodea, ya sea otra persona o un espacio simbólico, casi onírico, donde la intuición toma protagonismo y guía el camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg",
+          "goddessName": "Luisa Rubio Arribas",
+          "goddessDescription": "Luisa Rubio Arribas (Madrid - España) es una destacada experta en venture capital corporativo, innovación abierta y emprendimiento. Como directora de Wayra X, la plataforma de inversión temprana de Telefónica, lidera la selección e inversión en startups digitales de consumo, con participaciones de hasta 200.000 € en empresas de siete países, principalmente fuera de España y Latinoamérica. Durante su trayectoria profesional, ha trabajado en España y EEUU, impulsando iniciativas de innovación abierta que dieron lugar a más de 100 startups, gestionando inversiones, desinversiones y desarrollo de negocio. Además, es ponente y jurado en conferencias internacionales, colabora con publicaciones y ejerce como docente en emprendimiento e innovación abierta. Su liderazgo en Wayra X ha permitido constituir un portafolio sólido, construyendo alianzas estratégicas con startups digitales y fortaleciendo el ecosistema emprendedor global con perspectiva humana y colaborativa.",
+          "goddessImage": "https://150sec.com/wp-content/uploads/2021/01/Luisa-7.jpg"
+        },
+        {
+          "id": "1",
+          "name": "El Loco",
+          "description": "El viaje del Loco hacia el Mundo comienza en el número 0, un punto incierto donde todo es posible y se requiere una gran dosis de fe. Esta carta representa a quienes se aventuran en territorios inexplorados y llenos de misterio. Es la manifestación del impulso de lanzarse al abismo sin garantías.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg",
+          "goddessName": "Fei-Fei Li",
+          "goddessDescription": "Fei-Fei Li (Pekín - China) es una reconocida científica en el campo de la inteligencia artificial, aprendizaje automático, visión artificial, neurociencia cognitiva y neurociencia computacional. Es profesora en la Universidad de Stanford y co-directora del Instituto de IA centrado en el ser humano de la misma institución. Se unió a Google Cloud en su año sabático de la universidad donde trabajó para democratizar la tecnología de IA para negocios y desarrolladores. Es conocida por haber creado ImageNet, que ha revolucionado el campo del reconocimiento visual a gran escala. Además, su investigación en la visión por computadora, contribuyó significativamente a una línea de trabajo llamada Natural Scene Understanding, o más tarde, Story-telling of images. También es cofundadora y presidenta dela organización sin ánimos de lucro AI4ALL que se centra en educar a la próxima generación de tecnólogos, pensadores y líderes de la IA mediante la promoción de la diversidad y la inclusión a través de los principios de la AI centrados en el ser humano.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Fei-Fei_Li_at_AI_for_Good_2017.jpg"
+        }
+      ]
     }
   ]
 }

@@ -83,7 +83,7 @@ const CardHistory = () => {
                 {spread.user} - {spread.date}
               </h3>
 
-              <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center max-w-[800px] mx-auto">
+              <section className="flex flex-wrap justify-center gap-x-4 gap-y-6 max-w-[640px] mx-auto">
                 {spread.cards.map((c) => (
                   <figure key={c.id} className="text-center">
                     <img

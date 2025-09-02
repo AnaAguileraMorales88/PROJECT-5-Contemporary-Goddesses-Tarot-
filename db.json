@@ -33,6 +33,40 @@
           "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Sara_Garc%C3%ADa_Alonso_-_ESA_astronaut_announcement_Class_of_2022_%2852519960003%29_%28cropped%29.jpg"
         }
       ]
+    },
+    {
+      "id": "6679",
+      "user": "Dolores",
+      "date": "1/9/2025, 16:19:58",
+      "cards": [
+        {
+          "id": "6",
+          "name": "El Sumo Sacerdote",
+          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg",
+          "goddessName": "Kate Crawford",
+          "goddessDescription": "Kate Crawford (Sydney - Australia) es una investigadora y académica especializada en las implicaciones sociales y políticas de la inteligencia artificial. Co-fundadora del AI Now Institute en la Universidad de Nueva York, su trabajo se centra en cómo los sistemas de IA afectan la equidad, la privacidad y los derechos humanos. En su libro Atlas of AI, analiza cómo la IA está profundamente entrelazada con estructuras de poder y recursos naturales, describiéndola como una industria extractiva del siglo XXI. Crawford ha hablado y publicado artículos académicos sobre temas tales como las redes sociales, la regulación gubernamental del contenido de los medios, la interacción entre género y dispositivos móviles, gente joven y sexting, y big data. También ha explorado el impacto ambiental de la IA y aboga por una mayor transparencia y responsabilidad en su desarrollo y aplicación. Reconocida como una de las voces más influyentes en el campo de la inteligencia artificial, advierte sobre las consecuencias sociales y políticas que puede tener un uso irresponsable de esta tecnología.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kate_Crawford_by_flickr_user_andresmh.jpg"
+        },
+        {
+          "id": "5",
+          "name": "El Emperador",
+          "description": "La carta número IV representa al Emperador, emblema de estructura, autoridad y seguridad. El número cuatro evoca la solidez de un hogar, con sus muros que contienen y protegen. Así como abril, el cuarto mes, marca el momento en que la energía combativa de la vida hace florecer la tierra, el Emperador canaliza la fuerza hacia el orden y la permanencia, guiando el crecimiento con determinación y propósito.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg",
+          "goddessName": "Shalini Kapoor",
+          "goddessDescription": "Shalini Kapoor (Bareilly - India) estudió Ingeniería Informática en la Universidad de Lucknow y obtuvo un MBA en Sistemas de Información en SP Jain (Mumbai). Tras iniciar su carrera en HCL, pasó a IBM, donde en más de dos décadas ascendió a roles clave en IoT, IA y soluciones empresariales, siendo la primera mujer en India en ser nombrada IBM Fellow. Fundó la ONG Ankurit Foundation (2014) para fomentar STEM en niños, organizó ferias para más de 3.000 estudiantes y promovió la inclusión de IA en el currículo escolar. Es autora de AI for You: The New Game Changer y actualmente es Chief Technologist para AWS en India/APJ, liderando iniciativas de IA, sostenibilidad y transformación digital.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Shalini_Kapoor_%28IBM%29_Sep_2023.jpg"
+        },
+        {
+          "id": "3",
+          "name": "La Sacerdotisa",
+          "description": "La carta número II nos invita a abrirnos a la receptividad y a conectar con nuestro universo interno. Representa el momento del encuentro profundo con uno mismo y con aquello que nos rodea, ya sea otra persona o un espacio simbólico, casi onírico, donde la intuición toma protagonismo y guía el camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg",
+          "goddessName": "Luisa Rubio Arribas",
+          "goddessDescription": "Luisa Rubio Arribas (Madrid - España) es una destacada experta en venture capital corporativo, innovación abierta y emprendimiento. Como directora de Wayra X, la plataforma de inversión temprana de Telefónica, lidera la selección e inversión en startups digitales de consumo, con participaciones de hasta 200.000 € en empresas de siete países, principalmente fuera de España y Latinoamérica. Durante su trayectoria profesional, ha trabajado en España y EEUU, impulsando iniciativas de innovación abierta que dieron lugar a más de 100 startups, gestionando inversiones, desinversiones y desarrollo de negocio. Además, es ponente y jurado en conferencias internacionales, colabora con publicaciones y ejerce como docente en emprendimiento e innovación abierta. Su liderazgo en Wayra X ha permitido constituir un portafolio sólido, construyendo alianzas estratégicas con startups digitales y fortaleciendo el ecosistema emprendedor global con perspectiva humana y colaborativa.",
+          "goddessImage": "https://150sec.com/wp-content/uploads/2021/01/Luisa-7.jpg"
+        }
+      ]
     }
   ]
 }

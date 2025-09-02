@@ -15,3 +15,6 @@ export const deleteSpread = async (id) => {
   return await axios.delete(`${API_URL}/${id}`);
 };
 
+export const updateUserName = async (id, newUserName) => {
+  return await axios.patch(`${API_URL}/${id}`, { user: newUserName });
+};

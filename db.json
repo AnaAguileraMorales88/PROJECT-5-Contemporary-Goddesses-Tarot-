@@ -1,16 +1,85 @@
 {
   "cardspreads": [
     {
-      "id": "1b08",
-      "user": "Ana",
-      "date": "1/9/2025, 15:35:11",
+      "id": "7898",
+      "user": "Montse",
+      "date": "2/9/2025, 9:08:10",
       "cards": [
         {
-          "id": "13",
-          "name": "El Colgado",
-          "description": "En la carta del Colgado aparece una figura suspendida boca abajo, que no muestra señales de molestia. Esto simboliza a quienes adoptan una visión distinta, a la minoría que observa desde un ángulo diferente. Representa la habilidad para hallar soluciones y fuerzas en situaciones que otros consideran difíciles o incómodas. Es un tiempo de espera y pausa, un estado de transición hasta que la verdad se haga evidente con el paso del tiempo.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg"
+          "id": "9",
+          "name": "La Fuerza",
+          "description": "La carta de la Fuerza no alude a la violencia ni al dominio físico, sino a la armonía con nuestra esencia más profunda. Habla de vivir con autenticidad, de habitar el mundo desde el ser, no desde la lucha. Representa una energía constante y serena, una presencia firme que actúa sin imponerse. La Fuerza nos invita a responder con amor en medio de un entorno marcado por el miedo y la hostilidad, evocando la pureza instintiva y el espíritu libre de los animales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg"
         },
+        {
+          "id": "11",
+          "name": "La Rueda de la Fortuna",
+          "description": "Esta carta simboliza la transformación, el destino y el compromiso personal. Nos recuerda que ciertos acontecimientos ocurren porque deben suceder, pero también nos impulsa a asumir el control de nuestra vida, tomar decisiones conscientes y ser responsables de nuestras elecciones para que el cambio se manifieste.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg"
+        },
+        {
+          "id": "4",
+          "name": "La Emperatriz",
+          "description": "La carta número III nos conecta con la energía de la creación en su forma más esencial. La Emperatriz tiene el poder de transformar lo que toca, impregnándolo de vitalidad y dinamismo. Representa la fertilidad, la abundancia y la acción constante. Es el impulso creativo nacido del amor, donde el caos se convierte en vida.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2a0f",
+      "user": "Montse ",
+      "date": "2/9/2025, 9:24:35",
+      "cards": [
+        {
+          "id": "3",
+          "name": "La Sacerdotisa",
+          "description": "La carta número II nos invita a abrirnos a la receptividad y a conectar con nuestro universo interno. Representa el momento del encuentro profundo con uno mismo y con aquello que nos rodea, ya sea otra persona o un espacio simbólico, casi onírico, donde la intuición toma protagonismo y guía el camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg"
+        },
+        {
+          "id": "14",
+          "name": "La Muerte",
+          "description": "El arcano número XIII corresponde a la Muerte, pero no simboliza un final absoluto. Por eso se ubica en el centro de los arcanos, marcando un momento crucial de cambio. La Muerte representa la transformación y la transición de una etapa a otra. Para poder avanzar, es necesario soltar aquello que frena nuestro crecimiento. Esta carta nos anima a dejar atrás lo que ha cumplido su ciclo y permitir que algo nuevo surja.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg"
+        },
+        {
+          "id": "20",
+          "name": "El Sol",
+          "description": "El Sol simboliza la alegría, el triunfo y la gratitud. Esta carta brilla con intensidad y emerge al concluir un ciclo de cambio y evolución. Bajo su luz, todo se revela con claridad. Nos da la fuerza para aceptar y expresar nuestra verdadera esencia. Nos recuerda que la felicidad se encuentra en las cosas sencillas y en el presente. Al igual que el sol primaveral que calienta y da vida, esta carta representa la energía vital y la apertura hacia el mundo. El Sol es la alegría que se ha logrado con esfuerzo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg"
+        }
+      ]
+    },
+    {
+      "id": "9193",
+      "user": "Montse",
+      "date": "2/9/2025, 12:33:55",
+      "cards": [
+        {
+          "id": "1",
+          "name": "El Loco",
+          "description": "El viaje del Loco hacia el Mundo comienza en el número 0, un punto incierto donde todo es posible y se requiere una gran dosis de fe. Esta carta representa a quienes se aventuran en territorios inexplorados y llenos de misterio. Es la manifestación del impulso de lanzarse al abismo sin garantías.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg"
+        },
+        {
+          "id": "10",
+          "name": "El Ermitaño",
+          "description": "La carta del Ermitaño simboliza una soledad fértil y elegida, un espacio de introspección donde la sabiduría nace del silencio y del encuentro con uno mismo. Su lámpara, la primera luz visible en los arcanos mayores sostenida por una figura humana, representa la guía interior que ilumina el camino del autoconocimiento. Es una invitación a observar, reflexionar y crecer desde dentro, lejos del ruido del mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg"
+        },
+        {
+          "id": "16",
+          "name": "El Diablo",
+          "description": "La carta del Diablo aborda temas de opresión y libertad de elección. Nos confronta con nuestros temores y nos enseña que la única forma de vencerlos es nombrarlos, mirarlos de frente y aceptarlos. En el tarot, el Diablo está vinculado al libre albedrío, especialmente en los momentos en que parece más complicado ejercerlo. Representa la energía creativa, la fuerza erótica y dionisíaca que desata el caos y, a la vez, la libertad. Su mensaje sugiere que para salir del ciclo atrapante, solo hace falta romperlo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2f12",
+      "user": "Montse",
+      "date": "2/9/2025, 13:31:48",
+      "cards": [
         {
           "id": "12",
           "name": "La Justicia",
@@ -18,10 +87,16 @@
           "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg"
         },
         {
-          "id": "15",
-          "name": "La Templanza",
-          "description": "La Templanza representa al alquimista que domina el arte de combinar con precisión los elementos necesarios para crear algo que trasciende sus partes individuales. Antes de enfrentar el caos y la intensidad sensorial que trae la carta XV, El Diablo, se atraviesa un estado de equilibrio simbolizado por la Templanza. Este es un espacio logrado gracias a la reflexión y la conciliación de fuerzas opuestas.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg"
+          "id": "6",
+          "name": "El Sumo Sacerdote",
+          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
+        },
+        {
+          "id": "18",
+          "name": "La Estrella",
+          "description": "La Estrella aparece después de tiempos complicados, anunciando una renovación de energías. Lo más duro ya quedó atrás y podemos volver a mirar al cielo con confianza. Esta carta representa la esperanza, como esas estrellas fugaces que reflejan nuestros deseos más profundos, los cuales se transforman en esperanza y, finalmente, en alegría al cumplirse. La Estrella nos orienta hacia la sanación y nos recuerda que de la nada surge la plenitud.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_17_Star.jpg"
         }
       ]
     }

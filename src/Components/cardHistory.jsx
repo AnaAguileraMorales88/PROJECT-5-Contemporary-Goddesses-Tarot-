@@ -20,6 +20,10 @@ const CardHistory = () => {
     fetchHistory();
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   const handleDelete = async (id) => {
     try {
       await deleteSpread(id);

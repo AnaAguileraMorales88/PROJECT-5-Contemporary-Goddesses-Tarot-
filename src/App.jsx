@@ -8,6 +8,7 @@ import CommentCards from "./Components/CommentCards";
 import UserInput from "./Components/user";
 import Footer from "./Components/footer";
 import CardHistory from "./Components/cardHistory";
+import ScrollToTopButton from "./Components/scrollToTopButton";
 import { useState } from "react";
 import "./App.css";
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/history" element={<CardHistory />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton />
     </Background>
   );
 }

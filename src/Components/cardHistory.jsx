@@ -1,10 +1,14 @@
 import { useEffect, useState } from "react";
-import { getSpreads, deleteSpread } from "../services/ApiHistory";
+import { getSpreads, deleteSpread, deleteAllSpreads } from "../services/ApiHistory";
 import DeleteHistory from "./deleteHistory";
 import EditUserName from "./editUsername";
+import ClearHistory from "./clearHistory";
+import AlertPopup from "./modals/popupAlert";
+
 
 const CardHistory = () => {
   const [history, setHistory] = useState([]);
+  const [showAlert, setShowAlert] = useState(false);
 
   useEffect(() => {
     const fetchHistory = async () => {
@@ -12,10 +16,14 @@ const CardHistory = () => {
         const data = await getSpreads();
         setHistory(data.reverse());
       } catch (err) {
-        console.error("Error loading history:", err);
+        console.error("Error cargando historial:", err);
       }
     };
     fetchHistory();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
   const handleDelete = async (id) => {
@@ -27,59 +35,115 @@ const CardHistory = () => {
     }
   };
 
+
   const handleUpdateUser = (id, newName) => {
     setHistory((prev) =>
       prev.map((s) => (s.id === id ? { ...s, user: newName } : s))
     );
   };
 
-  return (
-    <section className="mt-6 p-4 sm:p-6 bg-[#1f1f2e] rounded-2xl shadow-lg max-w-full sm:max-w-3xl md:max-w-4xl mx-auto">
-      <h2 className="text-[#FDDBA1] font-bold text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6 text-center">
-        Historial de Tiradas
-      </h2>
+  const handleClearHistory = () => {
+    setShowAlert(true);
+  };
 
-      {history.length === 0 ? (
-        <p className="text-gray-400 text-center sm:text-left">
-          No hay tiradas guardadas todavía.
-        </p>
-      ) : (
-        history.map((spread) => (
-          <article
-            key={spread.id}
-            className="relative mb-6 p-3 sm:p-4 bg-[#2a2a3b] rounded-xl shadow-inner"
-          >
-            <div className="flex items-center justify-between">
-              <h3 className="text-[#BD85D8] font-semibold">
+  const confirmClearHistory = async () => {
+    setShowAlert(false);
+    try {
+      await deleteAllSpreads();
+      setHistory([]);
+    } catch (err) {
+      console.error("Error eliminando todo el historial:", err);
+    }
+  };
+
+  return (
+    <section className="relative max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
+      <section className="mt-6 p-6 bg-[#1f1f2e] rounded-2xl shadow-lg relative">
+        <h2 className="text-[#FDDBA1] font-bold text-2xl sm:text-4xl text-center relative mb-7">
+          TIRADAS GUARDADAS
+          {history.length > 0 && (
+            <ClearHistory
+              onClear={handleClearHistory}
+              className="absolute right-0 top-1/2 transform -translate-y-1/2"
+            />
+          )}
+        </h2>
+
+        {history.length === 0 ? (
+          <p className="text-gray-400 text-center mt-6">
+            No hay tiradas guardadas todavía.
+          </p>
+        ) : (
+          history.map((spread) => (
+            <article
+              key={spread.id}
+              className="relative mb-6 p-3 sm:p-4 bg-[#2a2a3b] rounded-xl shadow-inner"
+            >
+              <h3 className="text-[#BD85D8] font-semibold text-base sm:text-lg text-center mb-4">
                 {spread.user} - {spread.date}
               </h3>
-              
-            </div>
-            
-            <div className="flex gap-2 sm:gap-4 mt-4 flex-wrap">
-              {spread.cards.map((c) => (
-                <figure key={c.id} className="w-20 sm:w-[100px] text-center">
-                  <img
-                    src={c.image}
-                    alt={c.name}
-                    className="rounded-lg border border-[#FDDBA1] shadow-md"
-                  />
-                  <figcaption className="text-xs sm:text-sm text-[#FDDBA1] mt-1">
-                    {c.name}
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
-            <div className="absolute bottom-3 right-3 flex items-center gap-2">
-              <EditUserName
-                id={spread.id}
-                currentName={spread.user}
-                onUpdate={handleUpdateUser}
-              />
-              <DeleteHistory id={spread.id} onDelete={handleDelete} />
-            </div>
-          </article>
-        ))
+
+              <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center max-w-[800px] mx-auto">
+                {spread.cards.map((c) => (
+                  <figure key={c.id} className="text-center">
+                    <img
+                      src={c.image}
+                      alt={c.name}
+                      className="w-[140px] h-auto rounded-lg border border-[#FDDBA1] shadow-md mx-auto"
+                    />
+                    <figcaption className="text-sm text-[#FDDBA1] mt-2">{c.name}</figcaption>
+
+                    {c.goddessImage && (
+                      <div className="mt-4 flex flex-col items-center">
+                        <img
+                          src={c.goddessImage}
+                          alt={c.goddessName}
+                          className="w-[120px] h-[120px] object-cover rounded-full border-2 border-[#FDDBA1] shadow-md"
+                        />
+                        <p className="text-sm text-[#BD85D8] mt-2 font-semibold italic">
+                          {c.goddessName}
+                        </p>
+                      </div>
+                    )}
+                  </figure>
+                ))}
+              </section>
+
+              <div className="absolute bottom-3 right-3 flex items-center gap-2">
+                <EditUserName
+                  id={spread.id}
+                  currentName={spread.user}
+                  onUpdate={handleUpdateUser}
+                />
+                <DeleteHistory id={spread.id} onDelete={handleDelete} />
+              </div>
+            </article>
+          ))
+        )}
+      </section>
+
+
+      {showAlert && (
+        <AlertPopup
+          title="Vaciar historial"
+          message="¿Seguro que quieres vaciar todo el historial?"
+          onClose={() => setShowAlert(false)}
+        >
+          <div className="flex justify-center gap-4 mt-4">
+            <button
+              onClick={confirmClearHistory}
+              className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition cursor-pointer"
+            >
+              Sí
+            </button>
+            <button
+              onClick={() => setShowAlert(false)}
+              className="bg-gray-300 text-black px-4 py-2 rounded-lg hover:bg-gray-400 transition cursor-pointer"
+            >
+              No
+            </button>
+          </div>
+        </AlertPopup>
       )}
     </section>
   );

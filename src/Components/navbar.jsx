@@ -9,7 +9,7 @@ const Navbar = () => {
             to="/"
             className="hover:text-[#BD85D8] transition-colors"
           >
-            Inicio
+            INICIO
           </Link>
         </li>
         <li>
@@ -17,7 +17,7 @@ const Navbar = () => {
             to="/history"
             className="hover:text-[#BD85D8] transition-colors"
           >
-            Historial
+            HISTORIAL
           </Link>
         </li>
       </ul>

@@ -15,6 +15,17 @@ export const deleteSpread = async (id) => {
   return await axios.delete(`${API_URL}/${id}`);
 };
 
+
 export const updateUserName = async (id, newUserName) => {
   return await axios.patch(`${API_URL}/${id}`, { user: newUserName });
 };
+
+// 👉 Borrar todas las tiradas una a una
+export const deleteAllSpreads = async () => {
+  const spreads = await getSpreads();
+  const deletePromises = spreads.map((s) => deleteSpread(s.id));
+  await Promise.all(deletePromises);
+};
+
+
+

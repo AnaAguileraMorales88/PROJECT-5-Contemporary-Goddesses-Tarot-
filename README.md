@@ -5,6 +5,11 @@ Tarot Virtual es una aplicación interactiva que combina la experiencia de un ta
 
 El proyecto busca fomentar la creatividad y visibilizar mujeres líderes en campos mayormente masculinized, todo en una aplicación responsiva y accesible.
 
+##📷 Capturas del Proyecto
+<img width="1516" height="781" alt="Captura de pantalla 2025-09-03 a las 12 42 58" src="https://github.com/user-attachments/assets/703d3b86-c315-410b-b82a-3d23ec29a03b" />
+
+<img width="1498" height="654" alt="Captura de pantalla 2025-09-03 a las 12 43 23" src="https://github.com/user-attachments/assets/95969b48-431c-47e2-ae18-1ff2ec29c16b" />
+
 ## Objetivos del Proyecto
 
 - Es un juego de tarot: al completar el formulario, se genera una tirada de tres cartas que representan el pasado, el presente y el futuro.
@@ -80,18 +85,14 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 - Instala el proyecto:
   ```bash
   cd Contemporary-Goddesses-Tarot
-  npm install
-  npm install -D json-server
-  npm install axios
-  npm install react-router-dom
-  npm install -g json-server
   
+  npm install
+  npm install react-router-dom
+  npm install react-icons
+  npx json-server --watch db.json --port 3001
+  npm run dev
   ```
-- Abre la carpeta en Visual Studio Code.
-
-- Usa ``` npm run dev``` para abrir un live server y visualizar la página.
-
-- ¡Listo! Empieza a explorar la web!
+  ¡Listo! Empieza a explorar la web!
 
 ## Dependencias principales
 

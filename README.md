@@ -81,13 +81,28 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
   ```bash
   cd Contemporary-Goddesses-Tarot
   npm install
+  npm install -D json-server
+  npm install axios
+  npm install react-router-dom
+  npm install -g json-server
+  
   ```
-
 - Abre la carpeta en Visual Studio Code.
 
 - Usa ``` npm run dev``` para abrir un live server y visualizar la página.
 
 - ¡Listo! Empieza a explorar la web!
+
+## Dependencias principales
+
+react-router-dom
+ → Navegación en la aplicación.
+
+axios
+ → Cliente HTTP para consumir la API.
+
+json-server
+ → Simulación de API REST.
 
 ## Colaboradoras
 - https://github.com/AnaAguileraMorales88 

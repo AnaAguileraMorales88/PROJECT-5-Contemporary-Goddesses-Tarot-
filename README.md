@@ -1,9 +1,16 @@
 # Diosas Místicas
+
 ## Descripción
 
 Tarot Virtual es una aplicación interactiva que combina la experiencia de un tarot digital con un homenaje a mujeres contemporáneas referentes en STEM. Los usuarios pueden descubrir su pasado, presente y futuro a través de estas cartas.
 
 El proyecto busca fomentar la creatividad y visibilizar mujeres líderes en campos mayormente masculinized, todo en una aplicación responsiva y accesible.
+
+## Capturas del Proyecto
+
+<img width="1516" height="781" alt="Captura de pantalla 2025-09-03 a las 12 42 58" src="https://github.com/user-attachments/assets/703d3b86-c315-410b-b82a-3d23ec29a03b" />
+
+<img width="1498" height="654" alt="Captura de pantalla 2025-09-03 a las 12 43 23" src="https://github.com/user-attachments/assets/95969b48-431c-47e2-ae18-1ff2ec29c16b" />
 
 ## Objetivos del Proyecto
 
@@ -48,15 +55,20 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 - Iteración basada en feedback continuo para mejorar la experiencia del usuario.
 
-## Diseño y Experiencia
+## Pruebas Unitarias (Vitest)
 
+Este proyecto utiliza Vitest para realizar pruebas unitarias.
 
+### Versión
+Versión de Vitest:V3.2.4
 
+### Cómo ejecutar las pruebas
+Para expulsar las pruebas unitarias: npm run test
 
 ## Uso 
 - Abrir la aplicación en el navegador.
 
-- Colocar el nombre de usuario.
+- Introducir el nombre de usuario.
 
 - Escoger 3 cartas: pasado, presente y futuro.
 
@@ -80,22 +92,33 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 - Instala el proyecto:
   ```bash
   cd Contemporary-Goddesses-Tarot
+  
   npm install
+  npm install react-router-dom
+  npm install react-icons
+  npx json-server --watch db.json --port 3001
+  npm run dev
   ```
+  ¡Listo! Empieza a explorar la web!
 
-- Abre la carpeta en Visual Studio Code.
+## Dependencias principales
 
-- Usa ``` npm run dev``` para abrir un live server y visualizar la página.
+react-router-dom
+ → Navegación en la aplicación.
 
-- ¡Listo! Empieza a explorar la web!
+axios
+ → Cliente HTTP para consumir la API.
+
+json-server
+ → Simulación de API REST.
 
 ## Colaboradoras
-- https://github.com/AnaAguileraMorales88 
+- Ana Aguilera - https://github.com/AnaAguileraMorales88 
 
-- https://github.com/andreaonweb
+- Andrea Olivera - https://github.com/andreaonweb
 
-- https://github.com/LuMorenoM
+- Luisa Moreno - https://github.com/LuMorenoM
 
-- https://github.com/Montc027
+- Montse Muñoz - https://github.com/Montc027
 
-- https://github.com/sofiatoroviafara01
+- Sofía Toro - https://github.com/sofiatoroviafara01

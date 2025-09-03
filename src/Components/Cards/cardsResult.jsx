@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { saveSpread } from "../../services/ApiHistory";
 import { useNavigate } from "react-router-dom";
+import { IoRefreshCircle } from "react-icons/io5";
 
-const CardsResult = ({ selectedCards, cards, userData }) => {
+const CardsResult = ({ selectedCards, cards, userData, onReset}) => {
   const [saved, setSaved] = useState(false);
   const [loadingRedirect, setLoadingRedirect] = useState(false);
   const navigate = useNavigate();
@@ -50,7 +51,7 @@ const CardsResult = ({ selectedCards, cards, userData }) => {
         >
           <h2 className="text-[#FDDBA1] font-bold text-4xl">{labels[index]}</h2>
 
-          
+
           <img
             src={card.arcaneImage.imageSrc}
             alt={card.arcaneName || "Card"}
@@ -61,7 +62,7 @@ const CardsResult = ({ selectedCards, cards, userData }) => {
             {card.arcaneDescription}
           </p>
 
-          
+
           <div className="mt-6 flex flex-col items-center gap-4">
             <img
               src={card.goddessImage.imageSrc}
@@ -78,23 +79,35 @@ const CardsResult = ({ selectedCards, cards, userData }) => {
         </article>
       ))}
 
-      {!saved ? (
+      <div className="flex justify-center gap-6 mt-8">
+        {!saved ? (
+          <button
+            className="bg-[#FDDBA1] hover:bg-[#C99AE9] text-black font-semibold px-6 py-3 rounded-xl shadow-lg transition cursor-pointer"
+            onClick={handleSave}
+          >
+            GUARDAR TIRADA
+          </button>
+        ) : loadingRedirect ? (
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-10 h-10 border-4 border-[#FDDBA1] border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-[#FDDBA1] font-semibold">
+              Redirigiendo al historial...
+            </p>
+          </div>
+        ) : (
+          <p className="text-center text-green-400 font-bold text-lg">
+            ✅ Tirada guardada con éxito
+          </p>
+        )}
+
         <button
-          className="self-center bg-[#FDDBA1] hover:bg-[#C99AE9] text-black font-semibold px-6 py-3 rounded-xl shadow-lg transition cursor-pointer"
-          onClick={handleSave}
+          onClick={onReset}
+          className="flex items-center gap-2 bg-[#2a2a3b] hover:bg-[#BD85D8] text-white px-6 py-3 rounded-xl shadow-lg transition cursor-pointer"
         >
-          GUARDAR TIRADA
+          <IoRefreshCircle className="w-6 h-6" />
+          VOLVER A TIRAR
         </button>
-      ) : loadingRedirect ? (
-        <div className="flex flex-col items-center gap-3">
-          <div className="w-10 h-10 border-4 border-[#FDDBA1] border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-[#FDDBA1] font-semibold">Redirigiendo al historial...</p>
-        </div>
-      ) : (
-        <p className="text-center text-green-400 font-bold text-lg">
-          ✅ Tirada guardada con éxito
-        </p>
-      )}
+      </div>
     </section>
   );
 };

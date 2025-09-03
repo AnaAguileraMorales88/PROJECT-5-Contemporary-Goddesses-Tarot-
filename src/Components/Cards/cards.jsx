@@ -22,8 +22,8 @@ const Cards = ({ userData }) => {
   const [showResults, setShowResults] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [alertMessage, setAlertMessage] = useState("");
-  const [isMobile, setIsMobile] = useState(false); 
-  
+  const [isMobile, setIsMobile] = useState(false);
+
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();
@@ -61,6 +61,11 @@ const Cards = ({ userData }) => {
     setSelectedCards([...selectedCards, id]);
   };
 
+  const handleReset = () => {
+    setSelectedCards([]);  
+    setShowResults(false);
+  };
+
   const startRef = useRef(null);
   const buttonRef = useRef(null);
 
@@ -73,7 +78,7 @@ const Cards = ({ userData }) => {
   return (
     <section
       id="cards-section"
-      className="flex flex-col items-center justify-center mt-16 px-0" 
+      className="flex flex-col items-center justify-center mt-16 px-0"
     >
       <div className="flex justify-center items-center overflow-x-auto px-0 w-full max-w-full scrollbar-hide">
         <div className="flex gap-4 sm:gap-4 md:space-x-[-120px]">
@@ -116,7 +121,7 @@ const Cards = ({ userData }) => {
       {showResults && (
         <>
           <StartModal ref={startRef} userData={userData} />
-          <CardsResult selectedCards={selectedCards} cards={cards} userData={userData} />
+          <CardsResult selectedCards={selectedCards} cards={cards} userData={userData} onReset={handleReset}/>
           <EndModal userData={userData} />
         </>
       )}

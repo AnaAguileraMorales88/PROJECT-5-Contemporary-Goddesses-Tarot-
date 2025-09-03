@@ -55,15 +55,20 @@ https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot/:id
 
 - Iteración basada en feedback continuo para mejorar la experiencia del usuario.
 
-## Diseño y Experiencia
+## Pruebas Unitarias (Vitest)
 
+Este proyecto utiliza Vitest para realizar pruebas unitarias.
 
+### Versión
+Versión de Vitest:V3.2.4
 
+### Cómo ejecutar las pruebas
+Para expulsar las pruebas unitarias: npm run test
 
 ## Uso 
 - Abrir la aplicación en el navegador.
 
-- Colocar el nombre de usuario.
+- Introducir el nombre de usuario.
 
 - Escoger 3 cartas: pasado, presente y futuro.
 

@@ -22,6 +22,14 @@ const Cards = ({ userData }) => {
   const [showResults, setShowResults] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [alertMessage, setAlertMessage] = useState("");
+  const [isMobile, setIsMobile] = useState(false); 
+  
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   useEffect(() => {
     const fetchCards = async () => {
@@ -53,28 +61,29 @@ const Cards = ({ userData }) => {
     setSelectedCards([...selectedCards, id]);
   };
 
+  const startRef = useRef(null);
+  const buttonRef = useRef(null);
+
   useEffect(() => {
     if (selectedCards.length === 3 && buttonRef.current) {
       buttonRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }, [selectedCards]);
 
-  const startRef = useRef(null);
-  const buttonRef = useRef(null);
-
   return (
     <section
       id="cards-section"
-      className="flex flex-col items-center justify-center mt-15 px-0"
+      className="flex flex-col items-center justify-center mt-16 px-0" 
     >
       <div className="flex justify-center items-center overflow-x-auto px-0 w-full max-w-full scrollbar-hide">
-        <div className="flex space-x-[-120px]">
+        <div className="flex gap-4 sm:gap-4 md:space-x-[-120px]">
           {cards
             .filter((card) => !selectedCards.includes(card.id))
+            .slice(0, isMobile ? 3 : cards.length)
             .map((card) => (
               <figure
                 key={card.id}
-                className="relative cursor-pointer w-[120px] sm:w-[140px] md:w-[160px] lg:w-[190px] aspect-[2/3.3] rounded-lg transition-transform duration-300 hover:-translate-x-3 hover:scale-101"
+                className="relative cursor-pointer w-[120px] sm:w-[140px] md:w-[160px] lg:w-[190px] aspect-[2/3.3] rounded-lg transition-transform duration-300 hover:-translate-x-3 hover:scale-105"
                 onClick={() => handleSelection(card.id)}
               >
                 <img
@@ -92,7 +101,7 @@ const Cards = ({ userData }) => {
       {selectedCards.length === 3 && !showResults && (
         <button
           ref={buttonRef}
-          className="mt-13 px-6 py-2 bg-[#FDDBA1] text-black font-semibold rounded-2xl shadow-md hover:bg-[#BD85D8] transition cursor-pointer"
+          className="mt-10 px-6 py-2 bg-[#FDDBA1] text-black font-semibold rounded-2xl shadow-md hover:bg-[#BD85D8] transition cursor-pointer"
           onClick={() => {
             setShowResults(true);
             setTimeout(() => {
@@ -111,7 +120,6 @@ const Cards = ({ userData }) => {
           <EndModal userData={userData} />
         </>
       )}
-
 
       {showAlert && (
         <AlertPopup

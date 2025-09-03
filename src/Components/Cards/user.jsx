@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
-import TextInput from "./Textinput/textInput";
-import Modal from "./modals/popupAlert";
+import TextInput from "../../Textinput/textInput";
+import Modal from "../modals/popupAlert";
 
 function UserInput({ onRegister }) {
   const [name, setName] = useState("");

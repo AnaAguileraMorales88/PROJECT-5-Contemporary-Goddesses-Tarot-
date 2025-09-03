@@ -1,6 +1,6 @@
-import instagramIcon from "../assets/icons/icono-insta.png";
-import tiktokIcon from "../assets/icons/icono-tiktok.png"
-import xIcon from "../assets/icons/icono-x.png"
+import instagramIcon from "../../assets/icons/icono-insta.png";
+import tiktokIcon from "../../assets/icons/icono-tiktok.png"
+import xIcon from "../../assets/icons/icono-x.png"
 
 const socialLinks = [
   {

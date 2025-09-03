@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
-import { getSpreads, deleteSpread, deleteAllSpreads } from "../services/ApiHistory";
+import { getSpreads, deleteSpread, deleteAllSpreads } from "../../services/ApiHistory";
 import DeleteHistory from "./deleteHistory";
-import EditUserName from "./editUsername";
 import ClearHistory from "./clearHistory";
-import AlertPopup from "./modals/popupAlert";
-
+import EditUserName from "./editUsername.jsx"; 
+import AlertPopup from "../modals/popupAlert";
 
 const CardHistory = () => {
   const [history, setHistory] = useState([]);
@@ -27,15 +26,6 @@ const CardHistory = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
-
-  const handleDelete = async (id) => {
-    try {
-      await deleteSpread(id);
-      setHistory((prev) => prev.filter((spread) => spread.id !== id));
-    } catch (err) {
-      console.error("Error eliminando tirada:", err);
-    }
-  };
 
   const confirmDelete = async () => {
     if (!deleteId) return;
@@ -142,7 +132,6 @@ const CardHistory = () => {
           ))
         )}
       </section>
-
 
       {showAlert && (
         <AlertPopup

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { saveSpread } from "../services/ApiHistory";
+import { saveSpread } from "../../services/ApiHistory";
 import { useNavigate } from "react-router-dom";
 
 const CardsResult = ({ selectedCards, cards, userData }) => {

@@ -1,6 +1,6 @@
-import fondo1 from "../assets/images/Fondo.png";
-import constelacion1 from "../assets/images/constelacion1.png";
-import estrellas from "../assets/images/estrellas.png";
+import fondo1 from "../../assets/images/Fondo.png";
+import constelacion1 from "../../assets/images/constelacion1.png";
+import estrellas from "../../assets/images/estrellas.png";
 
 export default function Background({ children }) {
   return (

@@ -33,6 +33,74 @@
           "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Elena_Garc%C3%ADa_Armada_en_los_Reconocimientos_8_de_Marzo._D%C3%ADa_de_la_Mujer_%282018%29.jpg"
         }
       ]
+    },
+    {
+      "id": "5143",
+      "user": "Ana",
+      "date": "3/9/2025, 10:29:39",
+      "cards": [
+        {
+          "id": "7",
+          "name": "Los Amantes",
+          "description": "La carta de los Amantes representa el amor en su dimensión activa: una elección consciente, un compromiso que se manifiesta en el mundo. Simboliza la unión de lo femenino y lo masculino, la fusión de polaridades que da origen a la plenitud. De este encuentro nacen la compasión, la ternura y, por supuesto, el amor como fuerza transformadora.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_06_Lovers.jpg",
+          "goddessName": "Elizabeth Churchill",
+          "goddessDescription": "Elizabeth Churchill (Calcuta - India) es psicóloga, experta en interacción humano-computadora y computación social. Estudió Psicología Experimental y Sistemas Basados en Conocimiento. Actualmente es directora de la experiencia de usuario en Google, investiga y hace presentaciones acerca de temas relacionados a las ciencias de la computación, psicología, diseño, análisis y antropología para hacer la experiencia del usuario más precisa y eficiente. Ha publicado más de 200 artículos científicos, posee más de 50 patentes y es coautora/coeditora de al menos 7 libros en HCI, interacción social, agentes conversacionales y computación ubicua. Ha sido reconocida con varios premios y ha recibido doctorados honorarios. Su trabajo ha transformado herramientas de diseño como Material Design en Google, impactando a millones de usuarios y desarrolladores. Ha convertido a Flutter en una herramienta moderna y poderosa para crear experiencias de usuario ricas y coherentes en múltiples plataformas, facilitando el despliegue rápido de interfaces elegantes, personalizadas y premiadas.",
+          "goddessImage": "https://staticcdn.mbzuai.ac.ae/mbzuaiwpprd01/2024/05/ElizabethChurchill-487px.jpg"
+        },
+        {
+          "id": "6",
+          "name": "El Sumo Sacerdote",
+          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg",
+          "goddessName": "Kate Crawford",
+          "goddessDescription": "Kate Crawford (Sydney - Australia) es una investigadora y académica especializada en las implicaciones sociales y políticas de la inteligencia artificial. Co-fundadora del AI Now Institute en la Universidad de Nueva York, su trabajo se centra en cómo los sistemas de IA afectan la equidad, la privacidad y los derechos humanos. En su libro Atlas of AI, analiza cómo la IA está profundamente entrelazada con estructuras de poder y recursos naturales, describiéndola como una industria extractiva del siglo XXI. Crawford ha hablado y publicado artículos académicos sobre temas tales como las redes sociales, la regulación gubernamental del contenido de los medios, la interacción entre género y dispositivos móviles, gente joven y sexting, y big data. También ha explorado el impacto ambiental de la IA y aboga por una mayor transparencia y responsabilidad en su desarrollo y aplicación. Reconocida como una de las voces más influyentes en el campo de la inteligencia artificial, advierte sobre las consecuencias sociales y políticas que puede tener un uso irresponsable de esta tecnología.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kate_Crawford_by_flickr_user_andresmh.jpg"
+        },
+        {
+          "id": "14",
+          "name": "La Muerte",
+          "description": "El arcano número XIII corresponde a la Muerte, pero no simboliza un final absoluto. Por eso se ubica en el centro de los arcanos, marcando un momento crucial de cambio. La Muerte representa la transformación y la transición de una etapa a otra. Para poder avanzar, es necesario soltar aquello que frena nuestro crecimiento. Esta carta nos anima a dejar atrás lo que ha cumplido su ciclo y permitir que algo nuevo surja.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg",
+          "goddessName": "Silvina Moschini",
+          "goddessDescription": "Silvina Moschini (Tandil - Argentina) es una empresaria reconocida como pionera en la economía digital y la inclusión laboral femenina. En 2020, se convirtió en la primera mujer latinoamericana en liderar una empresa unicornio, TransparentBusiness, una plataforma de gestión de trabajo remoto valorada en más de 1.600 millones de dólares. Además, es fundadora de SheWorks!, una plataforma que conecta a mujeres con empleos flexibles y remotos, y de Unicoin, una criptomoneda respaldada por activos digitales. Moschini ha sido reconocida con premios como el EQUALS in Tech Award y el Women in Tech Lifetime Achievement Award, y ha sido nombrada Mujer de la Década por el Women Economic Forum. Como mentora y oradora, ha participado en iniciativas de ONU Mujeres y el G20, y ha sido productora ejecutiva del programa de televisión Unicorn Hunters, que conecta emprendedores con inversores globales.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/1/18/Silvina_Moschini_photo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "8976",
+      "user": "Ana Aguilera",
+      "date": "3/9/2025, 12:14:34",
+      "cards": [
+        {
+          "id": "12",
+          "name": "La Justicia",
+          "description": "La carta número XI representa la ley del karma, la relación entre causa y efecto. Su figura, directa y enigmática, nos enfrenta con la verdad sin rodeos. A través de esta carta aprendemos a ser objetivos y a cosechar las consecuencias de nuestras acciones. Además, la Justicia encarna ideales elevados y nos exhorta a defender diariamente un mundo más justo, libre e inclusivo, apoyando a quienes sufren opresión.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg",
+          "goddessName": "Joy Buolamwini",
+          "goddessDescription": "Joy Buolamwini (Edmonton - Canadá) es una científica informática y activista digital destacada por su investigación sobre sesgos raciales y de género en sistemas de reconocimiento facial. Su tesis de maestría en el MIT, titulada Gender Shades, reveló disparidades significativas en la precisión de estos sistemas, lo que llevó a empresas como IBM, Microsoft y Amazon a revisar sus tecnologías. Fundó la Algorithmic Justice League, una organización que utiliza la investigación y el arte para sensibilizar sobre los impactos sociales de la inteligencia artificial y se esta manera combatir la injusticia algorítmica. Ha recibido premios como la Beca Rhodes y ha sido reconocida en listas como TIME 100 Next y Forbes 30 Under 30. Su charla TED y libro Unmasking AI han impulsado el debate sobre la ética en la IA, poniendo de manifiesto cómo el racismo, el sexismo y otras formas de discriminación se manifiestan en los algoritmos. Continúa asesorando a gobiernos y empresas para promover políticas de IA más justas y equitativas.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Joy_Buolamwini%2C_2018_%28cropped%29.jpg"
+        },
+        {
+          "id": "14",
+          "name": "La Muerte",
+          "description": "El arcano número XIII corresponde a la Muerte, pero no simboliza un final absoluto. Por eso se ubica en el centro de los arcanos, marcando un momento crucial de cambio. La Muerte representa la transformación y la transición de una etapa a otra. Para poder avanzar, es necesario soltar aquello que frena nuestro crecimiento. Esta carta nos anima a dejar atrás lo que ha cumplido su ciclo y permitir que algo nuevo surja.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg",
+          "goddessName": "Silvina Moschini",
+          "goddessDescription": "Silvina Moschini (Tandil - Argentina) es una empresaria reconocida como pionera en la economía digital y la inclusión laboral femenina. En 2020, se convirtió en la primera mujer latinoamericana en liderar una empresa unicornio, TransparentBusiness, una plataforma de gestión de trabajo remoto valorada en más de 1.600 millones de dólares. Además, es fundadora de SheWorks!, una plataforma que conecta a mujeres con empleos flexibles y remotos, y de Unicoin, una criptomoneda respaldada por activos digitales. Moschini ha sido reconocida con premios como el EQUALS in Tech Award y el Women in Tech Lifetime Achievement Award, y ha sido nombrada Mujer de la Década por el Women Economic Forum. Como mentora y oradora, ha participado en iniciativas de ONU Mujeres y el G20, y ha sido productora ejecutiva del programa de televisión Unicorn Hunters, que conecta emprendedores con inversores globales.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/1/18/Silvina_Moschini_photo.jpg"
+        },
+        {
+          "id": "20",
+          "name": "El Sol",
+          "description": "El Sol simboliza la alegría, el triunfo y la gratitud. Esta carta brilla con intensidad y emerge al concluir un ciclo de cambio y evolución. Bajo su luz, todo se revela con claridad. Nos da la fuerza para aceptar y expresar nuestra verdadera esencia. Nos recuerda que la felicidad se encuentra en las cosas sencillas y en el presente. Al igual que el sol primaveral que calienta y da vida, esta carta representa la energía vital y la apertura hacia el mundo. El Sol es la alegría que se ha logrado con esfuerzo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg",
+          "goddessName": "Sheryl Sandberg",
+          "goddessDescription": "Sheryl Sandberg (Washington - EEUU) es una ejecutiva y escritora estadounidense reconocida por su liderazgo en el sector tecnológico. Tras obtener su MBA en Harvard, trabajó en McKinsey & Company, en el Departamento del Tesoro de EE. UU. y en Google, donde fue vicepresidenta de ventas en línea y operaciones. En 2008, se unió a Facebook como directora de operaciones (COO), siendo clave en su transformación en un gigante de la publicidad digital. Bajo su dirección, la compañía alcanzó la rentabilidad y salió a bolsa en 2012. En 2013, publicó el bestseller Lean In, promoviendo el liderazgo femenino, y en 2017, Option B, sobre resiliencia tras la adversidad. Fundó LeanIn.Org, una organización sin fines de lucro que apoya a mujeres profesionales. Dejó Meta en 2022 y se dedicó a su fundación y a proyectos filantrópicos. En 2024, presentó el documental Screams Before Silence, centrado en la violencia sexual durante el ataque de Hamas a Israel en octubre de 2023.",
+          "goddessImage": "https://images.dowjones.com/wp-content/uploads/sites/261/2020/09/17123737/Sheryl-Sandberg-headshot-NEW.jpeg"
+        }
+      ]
     }
   ]
 }

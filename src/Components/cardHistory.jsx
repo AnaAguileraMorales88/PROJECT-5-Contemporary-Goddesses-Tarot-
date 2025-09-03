@@ -9,6 +9,8 @@ import AlertPopup from "./modals/popupAlert";
 const CardHistory = () => {
   const [history, setHistory] = useState([]);
   const [showAlert, setShowAlert] = useState(false);
+  const [alertType, setAlertType] = useState(null);
+  const [deleteId, setDeleteId] = useState(null);
 
   useEffect(() => {
     const fetchHistory = async () => {
@@ -35,6 +37,24 @@ const CardHistory = () => {
     }
   };
 
+  const confirmDelete = async () => {
+    if (!deleteId) return;
+    try {
+      await deleteSpread(deleteId);
+      setHistory((prev) => prev.filter((s) => s.id !== deleteId));
+    } catch (err) {
+      console.error("Error eliminando tirada:", err);
+    } finally {
+      setDeleteId(null);
+      setShowAlert(false);
+    }
+  };
+
+  const requestDelete = (id) => {
+    setDeleteId(id);
+    setAlertType("single");
+    setShowAlert(true);
+  };
 
   const handleUpdateUser = (id, newName) => {
     setHistory((prev) =>
@@ -43,6 +63,7 @@ const CardHistory = () => {
   };
 
   const handleClearHistory = () => {
+    setAlertType("all");
     setShowAlert(true);
   };
 
@@ -115,7 +136,7 @@ const CardHistory = () => {
                   currentName={spread.user}
                   onUpdate={handleUpdateUser}
                 />
-                <DeleteHistory id={spread.id} onDelete={handleDelete} />
+                <DeleteHistory id={spread.id} onDelete={requestDelete} />
               </div>
             </article>
           ))
@@ -125,13 +146,17 @@ const CardHistory = () => {
 
       {showAlert && (
         <AlertPopup
-          title="Vaciar historial"
-          message="¿Seguro que quieres vaciar todo el historial?"
+          title={alertType === "all" ? "Vaciar historial" : "Eliminar tirada"}
+          message={
+            alertType === "all"
+              ? "¿Seguro que quieres vaciar todo el historial?"
+              : "¿Seguro que quieres eliminar esta tirada?"
+          }
           onClose={() => setShowAlert(false)}
         >
           <div className="flex justify-center gap-4 mt-4">
             <button
-              onClick={confirmClearHistory}
+              onClick={alertType === "all" ? confirmClearHistory : confirmDelete}
               className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition cursor-pointer"
             >
               Sí

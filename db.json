@@ -169,6 +169,40 @@
           "goddessImage": "https://imagenes.elpais.com/resizer/v2/IWJXGSLOKRHKVIQEO4WX5JCXLY.jpg?auth=6f2b593f9c1132bab59ab6b729eb01e70c52e49cdb2d6894b7758f57d168eb1f&width=414"
         }
       ]
+    },
+    {
+      "id": "a2d1",
+      "user": "Montse",
+      "date": "4/9/2025, 9:57:40",
+      "cards": [
+        {
+          "id": "21",
+          "name": "El Juicio",
+          "description": "La carta del Juicio aparece casi al final del viaje que comenzó con el Loco y culmina con el Mundo. Es una carta clave que marca la conclusión del proceso evolutivo que representan los arcanos mayores. Nos invita a tomar una acción definitiva: responder a nuestra verdadera vocación. El Juicio simboliza esa llamada profunda, la misión que nos guía en la vida. Antes de llegar a esta etapa, debimos mirar dentro de nosotros mismos, descubrir nuestra esencia auténtica y el mensaje que queremos compartir con el mundo. Cumplido este paso con sinceridad, alcanzaremos la verdadera libertad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/RWS_Tarot_20_Judgement.jpg",
+          "goddessName": "Barbarita Lara",
+          "goddessDescription": "Barbarita Lara Martínez (Santiago - Chile) es una ingeniera de ejecución en informática, reconocida por su contribución a la innovación tecnológica con impacto social. Es directora general y cofundadora de EMERCOM, una empresa dedicada a desarrollar soluciones disruptivas de comunicación. En 2015, ideó el Sistema de Información de Emergencia (SiE), una plataforma que permite enviar mensajes de emergencia a la población afectada por desastres naturales, incluso sin conexión a internet o redes móviles, utilizando ondas de radio y tecnología de alta frecuencia. Este sistema le permitió obtener una patente en 2017 y ha sido destacado por el MIT Technology Review como uno de los innovadores menores de 35 años en América Latina. Además, ha sido reconocida con premios como el Premio Ada Byron a la Mujer Tecnóloga en Chile 2022 y ha sido incluida en la lista de las 50 mujeres más poderosas de Chile en 2024 por la revista Forbes. Su trabajo ha sido fundamental para promover la participación de las mujeres en el ámbito STEM y para desarrollar tecnologías que mejoren la resiliencia de las comunidades ante emergencias.",
+          "goddessImage": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/C658/production/_103367705_2f0a7921-8eb9-447f-a5af-6e8435c667b2.jpg.webp"
+        },
+        {
+          "id": "6",
+          "name": "El Sumo Sacerdote",
+          "description": "La carta del Sumo Sacerdote encarna los principios del orden, las normas y los vínculos sociales. Actúa como figura de guía espiritual, portador de la sabiduría ancestral y de los sistemas de creencias que dan forma a nuestra comprensión del mundo. También representa el puente hacia lo sagrado, recordándonos el valor de la ética, la coherencia y la integridad en nuestro camino.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg",
+          "goddessName": "Kate Crawford",
+          "goddessDescription": "Kate Crawford (Sydney - Australia) es una investigadora y académica especializada en las implicaciones sociales y políticas de la inteligencia artificial. Co-fundadora del AI Now Institute en la Universidad de Nueva York, su trabajo se centra en cómo los sistemas de IA afectan la equidad, la privacidad y los derechos humanos. En su libro Atlas of AI, analiza cómo la IA está profundamente entrelazada con estructuras de poder y recursos naturales, describiéndola como una industria extractiva del siglo XXI. Crawford ha hablado y publicado artículos académicos sobre temas tales como las redes sociales, la regulación gubernamental del contenido de los medios, la interacción entre género y dispositivos móviles, gente joven y sexting, y big data. También ha explorado el impacto ambiental de la IA y aboga por una mayor transparencia y responsabilidad en su desarrollo y aplicación. Reconocida como una de las voces más influyentes en el campo de la inteligencia artificial, advierte sobre las consecuencias sociales y políticas que puede tener un uso irresponsable de esta tecnología.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kate_Crawford_by_flickr_user_andresmh.jpg"
+        },
+        {
+          "id": "2",
+          "name": "El Mago",
+          "description": "La carta número I corresponde al Mago, símbolo de nuestro poder interior y de aquellas habilidades que aún no han salido plenamente a la luz. El Mago representa a quien, con destreza y voluntad, puede alcanzar cualquier objetivo. Es una carta que habla de iniciativa, claridad mental y decisión, conectando tanto con lo tangible como con lo intangible, especialmente con la percepción y la visión interior.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg",
+          "goddessName": "Susan Kare",
+          "goddessDescription": "Susan Kare (Ithaca - EEUU) es una artista y diseñadora gráfica, famosa por su trabajo pionero en Apple durante los años 80. Fue la responsable de diseñar muchos de los íconos, tipografías y elementos visuales del primer Macintosh, como el ícono de la papelera, el del reloj y la fuente Chicago, usada en interfaces de Apple y en el iPod, siendo pionera del pixel art. Su estilo simple y funcional definió la estética de las primeras interfaces gráficas de usuario, haciendo la tecnología más accesible y amigable. Después trabajó en NeXT junto a Steve Jobs en el rol de directora creativa y tras esa etapa se lanzó como freelance y se convirtió en la diseñadora con la cartera de clientes más impresionante del mundo: Microsoft, IBM, Sony Pictures, Motorola, Intel, Facebook... Su trabajo ha sido ampliamente reconocido como fundamental para el diseño digital y la interacción humano-computadora lo cual sigue siendo determinante en el modo en que millones de personas interactúan con la tecnología. En 2015 fue contratada por Pinterest como Jefa de Diseño de Producto, donde sigue trabajando en la actualidad.",
+          "goddessImage": "https://upload.wikimedia.org/wikipedia/commons/8/88/SusanKare2019photo.jpg"
+        }
+      ]
     }
   ]
 }

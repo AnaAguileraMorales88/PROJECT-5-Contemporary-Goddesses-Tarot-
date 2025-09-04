@@ -1,0 +1,24 @@
+function AlertPopup({ title, message, onClose, children }) {
+  return (
+    <section className="fixed inset-0 flex items-center justify-center bg-black/40 z-50">
+      <div className="bg-white p-6 rounded-2xl shadow-lg text-center max-w-sm">
+        <h2 className="text-xl font-bold text-red-600 mb-4">⚠️ {title}</h2>
+        <p className="text-gray-700 mb-6">{message}</p>
+
+        {children ? (
+          children
+        ) : (
+          <button
+            onClick={onClose}
+            className="bg-[#C99AE9] text-[#040813] px-6 py-2 rounded-lg hover:bg-[#FDDBA1] transition cursor-pointer"
+          >
+            Cerrar
+          </button>
+        )}
+      </div>
+    </section>
+  );
+}
+
+export default AlertPopup;
+

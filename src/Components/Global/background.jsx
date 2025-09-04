@@ -1,10 +1,10 @@
-import fondo1 from "../assets/images/Fondo.png";
-import constelacion1 from "../assets/images/constelacion1.png";
-import estrellas from "../assets/images/estrellas.png";
+import fondo1 from "../../assets/images/Fondo.png";
+import constelacion1 from "../../assets/images/constelacion1.png";
+import estrellas from "../../assets/images/estrellas.png";
 
 export default function Background({ children }) {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-start">
+    <section className="relative min-h-screen flex flex-col items-center justify-start">
       <img
         src={fondo1}
         alt="fondo base morado con estrellas"
@@ -14,7 +14,7 @@ export default function Background({ children }) {
       <img
         src={constelacion1}
         alt="fondo superpuesto de las constelaciones"
-        className="absolute top-0 right-0 w-200 max-lg:w-150 max-md:w-48 max-sm:w-55 h-auto opacity-80"
+        className="absolute top-0 right-0 w-165 max-lg:w-150 max-md:w-48 max-sm:w-55 h-auto opacity-80"
       />
 
       <img
@@ -24,6 +24,6 @@ export default function Background({ children }) {
       />
 
       <div className="relative z-10 w-full">{children}</div>
-    </div>
+    </section>
   );
 }
